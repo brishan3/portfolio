@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
-import ohmpageImg from '../public/assets/projects/Ohmpage2.JPG';
+import ohmpageImg from '../public/assets/projects/Ohmpage.JPG';
 import inStockImg from '../public/assets/projects/InStock.JPG';
 import brainFlixImg from '../public/assets/projects/Brainflix.JPG';
 import bandsiteImg from '../public/assets/projects/Bandsite.JPG';
@@ -19,37 +19,37 @@ const Projects = () => {
           <ProjectItem
             title="Ohmpage"
             background={ohmpageImg}
-            projectUrl="/project"
+            projectUrl="/ohmpage"
             techStack="React, JavaScript, Express, MUI, Sass"
           />
           <ProjectItem
             title="InStock"
             background={inStockImg}
-            projectUrl="/project"
+            projectUrl="/instock"
             techStack="React, JavaScript, Express, Sass"
           />
           <ProjectItem
             title="BrainFlix"
             background={brainFlixImg}
-            projectUrl="/project"
+            projectUrl="/brainflix"
             techStack="React, JavaScript, Express, Sass"
           />
           <ProjectItem
             title="Bandsite"
             background={bandsiteImg}
-            projectUrl="/project"
+            projectUrl="/bandsite"
             techStack="HTML, JavaScript Sass"
           />
           <ProjectItem
             title="Coffee Shop"
             background={coffeeShopImg}
-            projectUrl="/project"
+            projectUrl="/coffeeshop"
             techStack="HTML, Sass"
           />
           <ProjectItem
             title="Travel Site"
             background={travelSiteImg}
-            projectUrl="/project"
+            projectUrl="/travelsite"
             techStack="HTML, CSS"
           />
         </div>
