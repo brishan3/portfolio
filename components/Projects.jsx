@@ -1,9 +1,61 @@
-import React from 'react'
+import React from 'react';
+import ProjectItem from './ProjectItem';
+import ohmpageImg from '../public/assets/projects/Ohmpage2.JPG';
+import inStockImg from '../public/assets/projects/InStock.JPG';
+import brainFlixImg from '../public/assets/projects/Brainflix.JPG';
+import bandsiteImg from '../public/assets/projects/Bandsite.JPG';
+import coffeeShopImg from '../public/assets/projects/CoffeeShop.JPG';
+import travelSiteImg from '../public/assets/projects/TravelSite.JPG';
 
 const Projects = () => {
   return (
-    <div>Projects</div>
+    <div className="w-full">
+      <div className="max-w-[1240px] mx-auto px-4 py-16">
+        <p className="text-xl tracking-widest uppercase text-[#dd876c]">
+          Projects
+        </p>
+        <h2 className="py-4">What I've Built</h2>
+        <div className="grid md:grid-cols-2 gap-8">
+          <ProjectItem
+            title="Ohmpage"
+            background={ohmpageImg}
+            projectUrl="/project"
+            techStack="React, JavaScript, Express, MUI, Sass"
+          />
+          <ProjectItem
+            title="InStock"
+            background={inStockImg}
+            projectUrl="/project"
+            techStack="React, JavaScript, Express, Sass"
+          />
+          <ProjectItem
+            title="BrainFlix"
+            background={brainFlixImg}
+            projectUrl="/project"
+            techStack="React, JavaScript, Express, Sass"
+          />
+          <ProjectItem
+            title="Bandsite"
+            background={bandsiteImg}
+            projectUrl="/project"
+            techStack="HTML, JavaScript Sass"
+          />
+          <ProjectItem
+            title="Coffee Shop"
+            background={coffeeShopImg}
+            projectUrl="/project"
+            techStack="HTML, Sass"
+          />
+          <ProjectItem
+            title="Travel Site"
+            background={travelSiteImg}
+            projectUrl="/project"
+            techStack="HTML, CSS"
+          />
+        </div>
+      </div>
+    </div>
   )
 }
 
-export default Projects
+export default Projects;
