@@ -45,7 +45,7 @@ const Contact = () => {
                 <p className='py-4'>I am available for freelance or full-time positions. Contact me and let's talk.</p>
               </div>
               <div>
-                <p className='uppercase pt-10'>Connect With Me</p>
+                <p className='uppercase pt-10 text-center'>Connect With Me</p>
                 <div className='flex items-center justify-around py-4'>
                   <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
                     <Link href='https://www.linkedin.com/in/brishan-king/'>
@@ -62,11 +62,11 @@ const Contact = () => {
                       <AiOutlineMail/>
                     </Link>
                   </div>
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
+                  {/* <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
                     <Link href='/#contact'>
                       <BsFillPersonLinesFill/>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
