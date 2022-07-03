@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import {AiOutlineMail} from 'react-icons/ai';
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
@@ -20,16 +21,24 @@ const Main = () => {
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
-              <FaLinkedinIn/>
+              <Link href='https://www.linkedin.com/in/brishan-king/'>
+                <FaLinkedinIn/>
+              </Link>
             </div>
             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
-              <FaGithub/>
+              <Link href='https://github.com/brishan3'>
+                <FaGithub/>
+              </Link>
             </div>
             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
-              <AiOutlineMail/>
+              <Link href='mailto:brishan.king@gmail.com'>
+                <AiOutlineMail/>
+              </Link>
             </div>
             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
-              <BsFillPersonLinesFill/>
+              <Link href='/#contact'>
+                <BsFillPersonLinesFill/>
+              </Link>
             </div>
           </div>
         </div>

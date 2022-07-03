@@ -70,19 +70,19 @@ const Navbar = () => {
             className='hidden md:flex'
           >
             <Link href='/'>
-              <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
+              <li className='ml-10 text-sm uppercase underline-offset-4 hover:underline'>Home</li>
             </Link>
             <Link href='/#about'>
-              <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
+              <li className='ml-10 text-sm uppercase underline-offset-4 hover:underline'>About</li>
             </Link>
             <Link href='/#skills'>
-              <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
+              <li className='ml-10 text-sm uppercase underline-offset-4 hover:underline'>Skills</li>
             </Link>
             <Link href='/#projects'>
-              <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
+              <li className='ml-10 text-sm uppercase underline-offset-4 hover:underline'>Projects</li>
             </Link>
             <Link href='/#contact'>
-              <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
+              <li className='ml-10 text-sm uppercase underline-offset-4 hover:underline'>Contact</li>
             </Link>
           </ul>
           <div onClick={handleNav} className='md:hidden'>
@@ -128,16 +128,24 @@ const Navbar = () => {
               <p className='uppercase tracking-widest text-[#5651e5]'>Let's Connect</p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                  <FaLinkedinIn/>
+                  <Link href='https://www.linkedin.com/in/brishan-king/'>
+                    <FaLinkedinIn/>
+                  </Link>
                 </div>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                  <FaGithub/>
+                  <Link href='https://github.com/brishan3'>
+                    <FaGithub/>
+                  </Link>
                 </div>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                  <AiOutlineMail/>
+                  <Link href='mailto:brishan.king@gmail.com'>
+                    <AiOutlineMail/>
+                  </Link>
                 </div>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                  <BsFillPersonLinesFill/>
+                  <Link href='/#contact'>
+                    <BsFillPersonLinesFill/>
+                  </Link>
                 </div>
               </div>
             </div>

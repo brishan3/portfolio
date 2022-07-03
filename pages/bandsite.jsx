@@ -37,7 +37,7 @@ const bandsite = () => {
           </div>
         </div>
         <Link href="/#projects">
-          <p className='underline cursor-pointer'>&lt; Back</p>
+          <p className='underline underline-offset-4 cursor-pointer'>&lt; Back</p>
         </Link>
       </div>
     </div>
