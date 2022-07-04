@@ -1,5 +1,5 @@
-import React from 'react'
-import Image from 'next/image'
+import React from 'react';
+import Image from 'next/image';
 
 const SkillCard = ({name, imgSrc}) => {
   return (
@@ -21,4 +21,4 @@ const SkillCard = ({name, imgSrc}) => {
   )
 }
 
-export default SkillCard
+export default SkillCard;

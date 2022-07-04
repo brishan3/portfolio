@@ -2,9 +2,10 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Image from 'next/image';
 import Link from 'next/link';
+import Swal from 'sweetalert2';
 import {AiOutlineMail} from 'react-icons/ai';
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
-import {BsFillPersonLinesFill} from 'react-icons/bs';
+// import {BsFillPersonLinesFill} from 'react-icons/bs';
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi';
 import contactImg from '../public/assets/contact.jpg';
 
@@ -19,9 +20,23 @@ const Contact = () => {
       .then((result) => {
           console.log(result.text);
           console.log('Message sent successfully');
+          Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: 'Message Sent Successfully',
+            showConfirmButton: false,
+            timer: 1500
+          })
           form.current.reset();
       }, (error) => {
           console.log(error.text);
+          Swal.fire({
+            position: 'center',
+            icon: 'error',
+            title: 'Message Failed to Send',
+            showConfirmButton: false,
+            timer: 1500
+          })
           console.log('Error sending message');
       });
   };
@@ -78,24 +93,24 @@ const Contact = () => {
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                   <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2' htmlFor="user_name" >Name</label>
-                    <input className='border-2 rounded-lg p-3 flex border-grey-300' id='user_name' name='user_name' type='text' required/>
+                    <input className='border-2 rounded-lg p-3 border-grey-300' id='user_name' name='user_name' type='text' required/>
                   </div>
                   <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2' htmlFor="user_phone" >Phone Number</label>
-                    <input className='border-2 rounded-lg p-3 flex border-grey-300' id='user_phone' name='user_phone' type='text'/>
+                    <input className='border-2 rounded-lg p-3 border-grey-300' id='user_phone' name='user_phone' type='text'/>
                   </div>
                 </div>
                 <div className='flex flex-col py-2'>
                   <label className='uppercase text-sm py-2' htmlFor="user_email" >Email</label>
-                  <input className='border-2 rounded-lg p-3 flex border-grey-300' id='user_email' name='user_email' type='email' required/>
+                  <input className='border-2 rounded-lg p-3 border-grey-300' id='user_email' name='user_email' type='email' required/>
                 </div>
                 <div className='flex flex-col py-2'>
                   <label className='uppercase text-sm py-2' htmlFor="user_subject" >Subject</label>
-                  <input className='border-2 rounded-lg p-3 flex border-grey-300' id='user_subject' name='user_subject' type='text' required/>
+                  <input className='border-2 rounded-lg p-3 border-grey-300' id='user_subject' name='user_subject' type='text' required/>
                 </div>
-                <div className='flex flex-col py-2'>
+                <div className='flex flex-col p-2 pb-6'>
                   <label className='uppercase text-sm py-2' htmlFor="user_message" >Message</label>
-                  <textarea className='border-2 rounded-lg p-3 flex border-grey-300' rows='10' id='user_message' name='user_message' type='text' required/>
+                  <textarea className='border-2 rounded-lg p-3 border-grey-300 resize-none' rows='10' id='user_message' name='user_message' type='text' required/>
                 </div>
                 <button className='w-full p-4 text-gray-100'>Send Message</button>
               </form>
