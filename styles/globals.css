@@ -29,4 +29,8 @@ html {
   button {
     @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#dd876c] to-[#8e7670] text-white
   }
+
+  .button {
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#dd876c] to-[#8e7670] text-white inline-block
+  }
 }

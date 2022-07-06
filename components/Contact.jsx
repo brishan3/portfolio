@@ -9,6 +9,8 @@ import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi';
 import contactImg from '../public/assets/contact.jpg';
 
+
+
 const Contact = () => {
 
   const form = useRef();
@@ -16,7 +18,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_ob16xxm', 'template_m6wi14g', form.current, 'OI_uKRDl4DiNtsVnx')
+    emailjs.sendForm('service_ob16xxm', 'template_m6wi14g', form.current, process.env.EMAILJS_KEY)
       .then((result) => {
           console.log(result.text);
           console.log('Message sent successfully');
@@ -51,7 +53,7 @@ const Contact = () => {
         <div className='grid lg:grid-cols-5 gap-8'>
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full'>
-              <div className='overflow-hidden rounded-xl hover:scale-105 ease-in duration-150'>
+              <div className='overflow-hidden rounded-xl'>
                 <Image src={contactImg} alt='Person typing on laptop'/>
               </div>
               <div>

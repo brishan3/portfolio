@@ -8,7 +8,7 @@ import {BsFillPersonLinesFill} from 'react-icons/bs';
 const Main = () => {
   return (
     <div className='w-full h-screen text-center'>
-      <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
+      <div className='max-w-[1240px] w-full h-full mx-auto p-4 flex justify-center items-center'>
         <div>
           <p className='uppercase text-sm tracking-widest text-gray-600'>Let's build something together</p>
           <h1 className='py-4 text-gray-700'>
@@ -16,7 +16,7 @@ const Main = () => {
           </h1>
           <h1 className='py-2 text-gray-700'>A Full-Stack Web Developer</h1>
           <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-            I’m focused on building responsive full-stack web applications while
+            I’m focused on building responsive front-end web applications while
             learning back-end technologies.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>

@@ -8,11 +8,17 @@ const About = () => {
         <div className='col-span-2 flex flex-col justify-center'>
           <p className='uppercase text-xl tracking-widest text-[#dd876c]'>About</p>
           <h2>Who I Am</h2>
-          <p className='py-2 text-gray-600'>// Aspiring junior developer</p>
+          <p className='py-2 text-gray-600'>// Web Developer</p>
           <p className='py-2 text-gray-600'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Growing up I drooled at the 2D/3D graphics that captivated my consciousness as they morphed from something chunky and sharp, into a realm of uncanny-likeness - fit with dynamic lighting, real-time physics, weather systems, etc...
           </p>
-          <p className='py-2 text-gray-600'>Check out some of my latest projects!</p>
+          <p className='py-2 text-gray-600'>
+            I became absolutely enamoured with the endless possibilities of programming coupled with the ever expanding limits of computing power that seemingly slowly trickles down to each of us. This infatuation sparked my imagination like nothing else: it is why I am here today, currently pursuing a career in Software Development.
+          </p>
+          <p className='py-2 text-gray-600'>
+            I always had a sneaking suspicion I would be drawn back into the world of 1's and 0's that make our tech tick. I am passionate about solving real world problems or just exercising creativity in a virtual landscape. I am always looking for new opportunities, please feel free to reach out and connect!
+          </p>
+          <p className='py-2 text-gray-600'>Also, feel free to check out some of my latest projects!</p>
         </div>
         <div className='w-full h-auto shadow-xl shadow-gray-400 rounded-xl p-4 flex justify-center items-center hover:scale-105 eas-in duration-300'>
           <Image className='rounded-xl' src='/../public/assets/portfolio-crop-portrait.jpg' alt='Portrait picture of myself' width='660' height='1000'/>
