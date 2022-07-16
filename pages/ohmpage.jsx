@@ -50,6 +50,7 @@ const ohmpage = () => {
             className="button px-8 pt-2 pb-[0.55rem] mt-4 mr-8"
             href="https://ohmpage.herokuapp.com/"
             target="_blank"
+            rel="noreferrer noopener"
           >
             Demo
           </a>
@@ -57,8 +58,17 @@ const ohmpage = () => {
             className="button px-8 pt-2 pb-[0.55rem] mt-4 mr-8"
             href="https://github.com/brishan3/ohmpage-client"
             target="_blank"
+            rel="noreferrer noopener"
           >
-            Code
+            Client
+          </a>
+          <a
+            className="button px-8 pt-2 pb-[0.55rem] mt-4 mr-8"
+            href="https://github.com/brishan3/ohmpage-api"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            API
           </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
@@ -66,27 +76,27 @@ const ohmpage = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
             <ul className="grid grid-cols-3 md:grid-cols-1">
               <li className="text-gray-600 flex items-center py-2">
-                <RiRadioButtonFill className="pr-1" />
+                <RiRadioButtonFill className="pr-1 flex-shrink-0" />
                 React
               </li>
               <li className="text-gray-600 flex items-center py-2">
-                <RiRadioButtonFill className="pr-1" />
+                <RiRadioButtonFill className="pr-1 flex-shrink-0" />
                 MUI
               </li>
               <li className="text-gray-600 flex items-center py-2">
-                <RiRadioButtonFill className="pr-1" />
+                <RiRadioButtonFill className="pr-1 flex-shrink-0" />
                 Sass
               </li>
               <li className="text-gray-600 flex items-center py-2">
-                <RiRadioButtonFill className="pr-1" />
+                <RiRadioButtonFill className="pr-1 flex-shrink-0" />
                 Express
               </li>
               <li className="text-gray-600 flex items-center py-2">
-                <RiRadioButtonFill className="pr-1" />
+                <RiRadioButtonFill className="pr-1 flex-shrink-0" />
                 MySQL
               </li>
               <li className="text-gray-600 flex items-center py-2">
-                <RiRadioButtonFill className="pr-1" />
+                <RiRadioButtonFill className="pr-1 flex-shrink-0" />
                 Knex
               </li>
             </ul>

@@ -12,8 +12,11 @@ const Skills = () => {
           <SkillCard name='CSS' imgSrc={'/../public/assets/skills/css.png'}/>
           <SkillCard name='JavaScript' imgSrc={'/../public/assets/skills/javascript.png'}/>
           <SkillCard name='React' imgSrc={'/../public/assets/skills/react.png'}/>
+          <SkillCard name='Next.js' imgSrc={'/../public/assets/skills/nextjs.png'}/>
+          <SkillCard name='Express' imgSrc={'/../public/assets/skills/express.png'}/>
           <SkillCard name='Sass' imgSrc={'/../public/assets/skills/sass.png'}/>
           <SkillCard name='Node' imgSrc={'/../public/assets/skills/node.png'}/>
+          <SkillCard name='MySQL' imgSrc={'/../public/assets/skills/mysql.png'}/>
           <SkillCard name='Tailwind' imgSrc={'/../public/assets/skills/tailwind.png'}/>
           <SkillCard name='Github' imgSrc={'/../public/assets/skills/github.png'}/>
         </div>

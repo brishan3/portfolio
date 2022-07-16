@@ -30,8 +30,8 @@ const travelsite = () => {
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
             <ul className='grid grid-cols-3 md:grid-cols-1'>
-              <li className='text-gray-600 flex items-center py-2'><RiRadioButtonFill className='pr-1'/>HTML</li>
-              <li className='text-gray-600 flex items-center py-2'><RiRadioButtonFill className='pr-1'/>CSS</li>
+              <li className='text-gray-600 flex items-center py-2'><RiRadioButtonFill className='pr-1 flex-shrink-0'/>HTML</li>
+              <li className='text-gray-600 flex items-center py-2'><RiRadioButtonFill className='pr-1 flex-shrink-0'/>CSS</li>
             </ul>
           </div>
         </div>

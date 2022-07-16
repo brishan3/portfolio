@@ -24,15 +24,30 @@ const brainflix = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fermentum vestibulum tortor et congue. Pellentesque sagittis orci at velit ultrices, vitae maximus massa feugiat. Morbi nec arcu eu risus fermentum suscipit. Integer eleifend id sem vel vestibulum. Maecenas sodales lacinia sem, non tincidunt enim volutpat in. Donec eget commodo ex. Aliquam erat volutpat. Nunc fermentum consequat dolor sed auctor. Morbi vel quam sodales, fermentum orci id, iaculis arcu. Nunc a facilisis mauris, eu blandit nulla. Aenean egestas interdum leo, commodo sodales sapien egestas a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan lacinia aliquam.
           </p>
           <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-          <button className='px-8 py-2 mt-4'>Code</button>
+          <a
+            className="button px-8 pt-2 pb-[0.55rem] mt-4 mr-8"
+            href="https://github.com/brishan3/brainflix-project"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Client
+          </a>
+          <a
+            className="button px-8 pt-2 pb-[0.55rem] mt-4 mr-8"
+            href="https://github.com/brishan3/brainflix-project-api"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            API
+          </a>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
             <ul className='grid grid-cols-3 md:grid-cols-1'>
-              <li className='text-gray-600 flex items-center py-2'><RiRadioButtonFill className='pr-1'/>React</li>
-              <li className='text-gray-600 flex items-center py-2'><RiRadioButtonFill className='pr-1'/>Sass</li>
-              <li className='text-gray-600 flex items-center py-2'><RiRadioButtonFill className='pr-1'/>Express</li>
+              <li className='text-gray-600 flex items-center py-2'><RiRadioButtonFill className='pr-1 flex-shrink-0'/>React</li>
+              <li className='text-gray-600 flex items-center py-2'><RiRadioButtonFill className='pr-1 flex-shrink-0'/>Sass</li>
+              <li className='text-gray-600 flex items-center py-2'><RiRadioButtonFill className='pr-1 flex-shrink-0'/>Express</li>
             </ul>
           </div>
         </div>

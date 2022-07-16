@@ -30,9 +30,9 @@ const instock = () => {
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
             <ul className='grid grid-cols-3 md:grid-cols-1'>
-              <li className='text-gray-600 flex items-center py-2'><RiRadioButtonFill className='pr-1'/>React</li>
-              <li className='text-gray-600 flex items-center py-2'><RiRadioButtonFill className='pr-1'/>Sass</li>
-              <li className='text-gray-600 flex items-center py-2'><RiRadioButtonFill className='pr-1'/>Express</li>
+              <li className='text-gray-600 flex items-center py-2'><RiRadioButtonFill className='pr-1 flex-shrink-0'/>React</li>
+              <li className='text-gray-600 flex items-center py-2'><RiRadioButtonFill className='pr-1 flex-shrink-0'/>Sass</li>
+              <li className='text-gray-600 flex items-center py-2'><RiRadioButtonFill className='pr-1 flex-shrink-0'/>Express</li>
             </ul>
           </div>
         </div>
