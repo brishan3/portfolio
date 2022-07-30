@@ -38,19 +38,19 @@ const Projects = () => {
             title="Bandsite"
             background={bandsiteImg}
             projectUrl="/bandsite"
-            techStack="HTML, JavaScript Sass"
+            techStack="HTML, JavaScript, Sass"
           />
           <ProjectItem
             title="Coffee Shop"
             background={coffeeShopImg}
             projectUrl="/coffeeshop"
-            techStack="HTML, Sass"
+            techStack="HTML, Sass, VS-Code"
           />
           <ProjectItem
             title="Travel Site"
             background={travelSiteImg}
             projectUrl="/travelsite"
-            techStack="HTML, CSS"
+            techStack="HTML, CSS, VS-Code"
           />
         </div>
       </div>

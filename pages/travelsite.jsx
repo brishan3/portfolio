@@ -23,8 +23,10 @@ const travelsite = () => {
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fermentum vestibulum tortor et congue. Pellentesque sagittis orci at velit ultrices, vitae maximus massa feugiat. Morbi nec arcu eu risus fermentum suscipit. Integer eleifend id sem vel vestibulum. Maecenas sodales lacinia sem, non tincidunt enim volutpat in. Donec eget commodo ex. Aliquam erat volutpat. Nunc fermentum consequat dolor sed auctor. Morbi vel quam sodales, fermentum orci id, iaculis arcu. Nunc a facilisis mauris, eu blandit nulla. Aenean egestas interdum leo, commodo sodales sapien egestas a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan lacinia aliquam.
           </p>
-          <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-          <button className='px-8 py-2 mt-4'>Code</button>
+          <div className='flex flex-wrap justify-center md:justify-start gap-4'>
+            <button className='px-8 py-2 mt-4'>Demo</button>
+            <button className='px-8 py-2 mt-4'>Code</button>
+          </div>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl lg:p-4 md:py-4 md:px-0 h-fit'>
           <div className='p-4 md:flex justify-center flex-wrap'>
@@ -32,6 +34,7 @@ const travelsite = () => {
             <ul className='grid grid-cols-3 md:grid-cols-1'>
               <li className='text-gray-600 flex items-center justify-center md:justify-start py-2'><RiRadioButtonFill className='pr-1 flex-shrink-0'/>HTML</li>
               <li className='text-gray-600 flex items-center justify-center md:justify-start py-2'><RiRadioButtonFill className='pr-1 flex-shrink-0'/>CSS</li>
+              <li className='text-gray-600 flex items-center justify-center md:justify-start py-2'><RiRadioButtonFill className='pr-1 flex-shrink-0'/>VS Code</li>
             </ul>
           </div>
         </div>

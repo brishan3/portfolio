@@ -138,7 +138,7 @@ const Navbar = () => {
             </nav>
             <div className='pt-[10vh]'>
               <p className='uppercase tracking-widest text-[#5651e5]'>Let's Connect</p>
-              <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
+              <div className='flex gap-6 flex-wrap items-center justify-center my-4 w-fit'>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 hover:shadow-gray-300 ease-in duration-300'>
                   <Link href='https://www.linkedin.com/in/brishan-king/'>
                     <FaLinkedinIn/>

@@ -46,30 +46,32 @@ const ohmpage = () => {
           <p className='mt-2'>
             Stop by, check out the Link Library!
           </p>
-          <a
-            className="button px-8 pt-2 pb-[0.55rem] mt-4 mr-8"
-            href="https://ohmpage.herokuapp.com/"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            Demo
-          </a>
-          <a
-            className="button px-8 pt-2 pb-[0.55rem] mt-4 mr-8"
-            href="https://github.com/brishan3/ohmpage-client"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            Client
-          </a>
-          <a
-            className="button px-8 pt-2 pb-[0.55rem] mt-4 mr-8"
-            href="https://github.com/brishan3/ohmpage-api"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            API
-          </a>
+          <div className='flex flex-wrap justify-center md:justify-start gap-4'>
+            <a
+              className="button px-8 pt-2 pb-[0.55rem] mt-4"
+              href="https://ohmpage.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Demo
+            </a>
+            <a
+              className="button px-8 pt-2 pb-[0.55rem] mt-4"
+              href="https://github.com/brishan3/ohmpage-client"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Client
+            </a>
+            <a
+              className="button px-8 pt-2 pb-[0.55rem] mt-4"
+              href="https://github.com/brishan3/ohmpage-api"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              API
+            </a>
+          </div>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl lg:p-4 md:py-4 md:px-0 h-fit">
           <div className="p-4 md:flex justify-center flex-wrap">

@@ -18,7 +18,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_ob16xxm', 'template_m6wi14g', form.current, process.env.EMAILJS_KEY)
+    emailjs.sendForm('service_ob16xxm', 'template_m6wi14g', form.current, process.env.NEXT_PUBLIC_EMAILJS_KEY)
       .then((result) => {
           console.log(result.text);
           console.log('Message sent successfully');
@@ -100,7 +100,7 @@ const Contact = () => {
                   </div>
                   <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2' htmlFor="user_phone" >Phone Number</label>
-                    <input className='border-2 rounded-lg p-3 border-grey-300 focus:outline-[#dd876c]' id='user_phone' name='user_phone' type='tel' pattern='[0-9]{3}-[0-9]{3}-[0-9]{3}' placeholder='xxx-xxx-xxxx'/>
+                    <input className='border-2 rounded-lg p-3 border-grey-300 focus:outline-[#dd876c]' id='user_phone' name='user_phone' type='tel' placeholder='xxx-xxx-xxxx'/>
                   </div>
                 </div>
                 <div className='flex flex-col py-2'>
