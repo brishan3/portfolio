@@ -6,7 +6,7 @@ import heroImg from '../public/assets/projects/Brainflix.JPG';
 
 const brainflix = () => {
   return (
-    <div className='w-full'>
+    <section className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/50 z-10'/>
         <Image className='absolute z-1' layout='fill' objectFit='cover' src={heroImg} alt='Ohmpage website screenshot'/>
@@ -41,13 +41,13 @@ const brainflix = () => {
             API
           </a>
         </div>
-        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
-          <div className='p-2'>
-            <p className='text-center font-bold pb-2'>Technologies</p>
+        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl lg:p-4 md:py-4 md:px-0 h-fit'>
+          <div className='p-4 md:flex justify-center flex-wrap'>
+            <p className='text-center font-bold pb-2'>Technologies:</p>
             <ul className='grid grid-cols-3 md:grid-cols-1'>
-              <li className='text-gray-600 flex items-center py-2'><RiRadioButtonFill className='pr-1 flex-shrink-0'/>React</li>
-              <li className='text-gray-600 flex items-center py-2'><RiRadioButtonFill className='pr-1 flex-shrink-0'/>Sass</li>
-              <li className='text-gray-600 flex items-center py-2'><RiRadioButtonFill className='pr-1 flex-shrink-0'/>Express</li>
+              <li className='text-gray-600 flex items-center justify-center md:justify-start py-2'><RiRadioButtonFill className='pr-1 flex-shrink-0'/>React</li>
+              <li className='text-gray-600 flex items-center justify-center md:justify-start py-2'><RiRadioButtonFill className='pr-1 flex-shrink-0'/>Sass</li>
+              <li className='text-gray-600 flex items-center justify-center md:justify-start py-2'><RiRadioButtonFill className='pr-1 flex-shrink-0'/>Express</li>
             </ul>
           </div>
         </div>
@@ -55,7 +55,7 @@ const brainflix = () => {
           <p className='underline underline-offset-4 cursor-pointer'>&lt; Back</p>
         </Link>
       </div>
-    </div>
+    </section>
   )
 }
 

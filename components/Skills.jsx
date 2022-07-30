@@ -3,7 +3,7 @@ import SkillCard from './SkillCard';
 
 const Skills = () => {
   return (
-    <div id='skills' className='w-full lg:min-h-[40vh] p-4'>
+    <section id='skills' className='w-full lg:min-h-[40vh] p-4'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <p className='text-xl tracking-widest uppercase text-[#dd876c]'>Skills</p>
         <h2 className='py-4'>What I can do</h2>
@@ -22,7 +22,7 @@ const Skills = () => {
           <SkillCard name='Heroku' imgSrc={'/../public/assets/skills/heroku.png'}/>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
