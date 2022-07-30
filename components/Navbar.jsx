@@ -70,19 +70,19 @@ const Navbar = () => {
             className='hidden md:flex'
           >
             <Link href='/'>
-              <li className='ml-10 text-sm uppercase underline-offset-4 hover:underline'>Home</li>
+              <li className='ml-10 text-sm uppercase underline-offset-8 decoration-2 decoration-solid decoration-[#dd876c] hover:underline'>Home</li>
             </Link>
             <Link href='/#about'>
-              <li className='ml-10 text-sm uppercase underline-offset-4 hover:underline'>About</li>
+              <li className='ml-10 text-sm uppercase underline-offset-8 decoration-2 decoration-solid decoration-[#dd876c] hover:underline'>About</li>
             </Link>
             <Link href='/#skills'>
-              <li className='ml-10 text-sm uppercase underline-offset-4 hover:underline'>Skills</li>
+              <li className='ml-10 text-sm uppercase underline-offset-8 decoration-2 decoration-solid decoration-[#dd876c] hover:underline'>Skills</li>
             </Link>
             <Link href='/#projects'>
-              <li className='ml-10 text-sm uppercase underline-offset-4 hover:underline'>Projects</li>
+              <li className='ml-10 text-sm uppercase underline-offset-8 decoration-2 decoration-solid decoration-[#dd876c] hover:underline'>Projects</li>
             </Link>
             <Link href='/#contact'>
-              <li className='ml-10 text-sm uppercase underline-offset-4 hover:underline'>Contact</li>
+              <li className='ml-10 text-sm uppercase underline-offset-8 decoration-2 decoration-solid decoration-[#dd876c] hover:underline'>Contact</li>
             </Link>
           </ul>
           <div onClick={handleNav} className='md:hidden'>

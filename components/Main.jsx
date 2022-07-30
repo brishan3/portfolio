@@ -20,10 +20,12 @@ const Main = () => {
             learning back-end technologies.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
-              <Link href='https://www.linkedin.com/in/brishan-king/'>
-                <FaLinkedinIn/>
-              </Link>
+            <div className='rounded-full shadow-gray-400 shadow-lg'>
+              <div className='rounded-full bg-[#ecf0f3] p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
+                <Link href='https://www.linkedin.com/in/brishan-king/'>
+                  <FaLinkedinIn/>
+                </Link>
+              </div>
             </div>
             <div className='rounded-full shadow-gray-400 shadow-lg'>
               <div className='rounded-full bg-[#ecf0f3] p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
@@ -32,15 +34,19 @@ const Main = () => {
                 </Link>
               </div>
             </div>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:shadow-md ease-in duration-150'>
-              <Link href='mailto:brishan.king@gmail.com'>
-                <AiOutlineMail/>
-              </Link>
+            <div className='rounded-full shadow-gray-400 shadow-lg'>
+              <div className='rounded-full bg-[#ecf0f3] p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
+                <Link href='mailto:brishan.king@gmail.com'>
+                  <AiOutlineMail/>
+                </Link>
+              </div>
             </div>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:shadow-gray-300 ease-in duration-150'>
-              <Link href='/#contact'>
-                <BsFillPersonLinesFill/>
-              </Link>
+            <div className='rounded-full shadow-gray-400 shadow-lg'>
+              <div className='rounded-full bg-[#ecf0f3] p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
+                <Link href='/#contact'>
+                  <BsFillPersonLinesFill/>
+                </Link>
+              </div>
             </div>
           </div>
         </div>

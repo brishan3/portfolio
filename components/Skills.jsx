@@ -19,6 +19,7 @@ const Skills = () => {
           <SkillCard name='MySQL' imgSrc={'/../public/assets/skills/mysql.png'}/>
           <SkillCard name='Tailwind' imgSrc={'/../public/assets/skills/tailwind.png'}/>
           <SkillCard name='Github' imgSrc={'/../public/assets/skills/github.png'}/>
+          <SkillCard name='Heroku' imgSrc={'/../public/assets/skills/heroku.png'}/>
         </div>
       </div>
     </div>
