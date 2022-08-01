@@ -104,8 +104,8 @@ const Navbar = () => {
       <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
         <div className={
                 nav
-                  ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
-                  : 'fixed left-[-100%] top-0 p-10 h-screen ease-in duration-500'}>
+                  ? 'fixed right-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
+                  : 'fixed right-[-100%] top-0 p-10 h-screen ease-in duration-500'}>
           <div>
             <div className='flex w-full items-center justify-between'>
               <Image src={logoImage} alt='Logo' width='87' height='35'/>
@@ -140,26 +140,26 @@ const Navbar = () => {
             <div className='pt-[10vh]'>
               <p className='uppercase tracking-widest text-[#5651e5]'>Let&apos;s Connect</p>
               <div className='flex gap-6 flex-wrap items-center justify-center my-4 w-fit'>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 hover:shadow-gray-300 ease-in duration-300'>
-                  <Link href='https://www.linkedin.com/in/brishan-king/'>
+                <Link href='https://www.linkedin.com/in/brishan-king/'>
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 hover:shadow-gray-300 ease-in duration-300'>
                     <FaLinkedinIn/>
-                  </Link>
-                </div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 hover:shadow-gray-300 ease-in duration-300'>
-                  <Link href='https://github.com/brishan3'>
+                  </div>
+                </Link>
+                <Link href='https://github.com/brishan3'>
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 hover:shadow-gray-300 ease-in duration-300'>
                     <FaGithub/>
-                  </Link>
-                </div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 hover:shadow-gray-300 ease-in duration-300'>
-                  <Link href='mailto:brishan.king@gmail.com'>
+                  </div>
+                </Link>
+                <Link href='mailto:brishan.king@gmail.com'>
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 hover:shadow-gray-300 ease-in duration-300'>
                     <AiOutlineMail/>
-                  </Link>
-                </div>
-                <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 hover:shadow-gray-300 ease-in duration-300'>
-                  <Link href='/#contact'>
+                  </div>
+                </Link>
+                <Link href='/#contact' onClick={handleNav}>
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 hover:shadow-gray-300 ease-in duration-300'>
                     <BsFillPersonLinesFill/>
-                  </Link>
-                </div>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
