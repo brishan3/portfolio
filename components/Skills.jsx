@@ -10,7 +10,7 @@ import sassLogo from '../public/assets/skills/sass.png';
 import nodeLogo from '../public/assets/skills/node.png';
 import mySqlLogo from '../public/assets/skills/mysql.png';
 import tailwindLogo from '../public/assets/skills/tailwind.png';
-import githubLogo from '../public/assets/skills/github.png';
+import githubLogo from '../public/assets/skills/git.png';
 import herokuLogo from '../public/assets/skills/heroku.png';
 
 
