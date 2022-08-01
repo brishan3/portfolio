@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import logoImage from '../public/assets/logo.png';
 import {useRouter} from 'next/router';
 import React, {useState, useEffect} from 'react';
 import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai';
@@ -58,7 +59,7 @@ const Navbar = () => {
         <Link href='/'>
           <Image
             className='cursor-pointer'
-            src='../public/assets/logo.png'
+            src={logoImage}
             alt='Logo'
             width='125'
             height='50'
@@ -107,7 +108,7 @@ const Navbar = () => {
                   : 'fixed left-[-100%] top-0 p-10 h-screen ease-in duration-500'}>
           <div>
             <div className='flex w-full items-center justify-between'>
-              <Image src='../public/assets/logo.png' alt='Logo' width='87' height='35'/>
+              <Image src={logoImage} alt='Logo' width='87' height='35'/>
               <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                 <AiOutlineClose/>
               </div>
