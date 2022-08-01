@@ -155,7 +155,7 @@ const Navbar = () => {
                     <AiOutlineMail/>
                   </Link>
                 </div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 hover:shadow-gray-300 ease-in duration-300'>
+                <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 hover:shadow-gray-300 ease-in duration-300'>
                   <Link href='/#contact'>
                     <BsFillPersonLinesFill/>
                   </Link>
