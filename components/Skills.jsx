@@ -31,7 +31,7 @@ const Skills = () => {
           <SkillCard name='Node' imgSrc={nodeLogo}/>
           <SkillCard name='MySQL' imgSrc={mySqlLogo}/>
           <SkillCard name='Tailwind' imgSrc={tailwindLogo}/>
-          <SkillCard name='Github' imgSrc={githubLogo}/>
+          <SkillCard name='Git' imgSrc={githubLogo}/>
           <SkillCard name='Heroku' imgSrc={herokuLogo}/>
         </div>
       </div>
