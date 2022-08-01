@@ -11,7 +11,7 @@ const About = () => {
           <h2>Who I Am</h2>
           <p className='py-2 text-gray-600'>// Web Developer</p>
           <p className='py-2 text-gray-600'>
-            As a wee lad, the 2D/3D graphics that captivated my consciousness as they morphed from something chunky and sharp, into a realm of uncanny-likeness - fit with dynamic lighting, real-time physics, weather systems, etc...
+            As a kid, the 2D/3D graphics that captivated my consciousness morphed from something chunky and sharp, into a realm of uncanny-likeness - fit with dynamic lighting, real-time physics, weather systems, etc...
           </p>
           <p className='py-2 text-gray-600'>
             I became enamoured with the endless possibilities of programming coupled with the ever expanding limits of computing power that seemingly trickles down to each of us. This infatuation sparked my imagination like nothing else: it is why I am here today, currently pursuing a career in Software Development.
