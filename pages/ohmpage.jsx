@@ -32,7 +32,7 @@ const ohmpage = () => {
             homepage riddled with interesting links to web tools, forums,
             developer resources, etc. Having used{' '}
             <span className="font-bold">weboas.is</span> religiously on every
-            browser and computer I've owned over the past 5 years as the default
+            browser and computer I&apos;ve owned over the past 5 years as the default
             homepage, I found many cool, interesting and helpful websites via
             this hub! Now, I have filled that{' '}
             <span className="italic">rather large</span> void with{' '}

@@ -28,7 +28,7 @@ const bandsite = () => {
             <p>Project</p>
             <h2 className='pb-2'>Overview</h2>
             <p>
-              A fully responsive front-end application for a fictional band by the name of 'The Bees Knees'. This project was built using HTML and vanilla JavaScript, along with Sass, a CSS pre-processor, for all styling and visual responsiveness. Complete with dynamic data being pulled from an Express API hosted on Heroku with the added ability to be able to post a comment! As this is just for demonstration, comments will be wiped/refreshed every 24 hours.
+              A fully responsive front-end application for a fictional band by the name of &apos;The Bees Knees&apos;. This project was built using HTML and vanilla JavaScript, along with Sass, a CSS pre-processor, for all styling and visual responsiveness. Complete with dynamic data being pulled from an Express API hosted on Heroku with the added ability to be able to post a comment! As this is just for demonstration, comments will be wiped/refreshed every 24 hours.
             </p>
             <div className='flex flex-wrap justify-center md:justify-start gap-4'>
               <a

@@ -113,7 +113,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className='border-b border-gray-300 my-4'>
-              <p className='w-[85%] md:w-[90%] py-4'>Let's build something together</p>
+              <p className='w-[85%] md:w-[90%] py-4'>Let&apos;s build something together</p>
             </div>
           </div>
           <div className='py-4 flex flex-col'>
@@ -137,7 +137,7 @@ const Navbar = () => {
               </ul>
             </nav>
             <div className='pt-[10vh]'>
-              <p className='uppercase tracking-widest text-[#5651e5]'>Let's Connect</p>
+              <p className='uppercase tracking-widest text-[#5651e5]'>Let&apos;s Connect</p>
               <div className='flex gap-6 flex-wrap items-center justify-center my-4 w-fit'>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 hover:shadow-gray-300 ease-in duration-300'>
                   <Link href='https://www.linkedin.com/in/brishan-king/'>

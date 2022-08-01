@@ -10,13 +10,13 @@ const Main = () => {
     <section className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-4 flex justify-center items-center'>
         <div>
-          <p className='uppercase text-sm tracking-widest text-gray-600'>Let's build something together</p>
+          <p className='uppercase text-sm tracking-widest text-gray-600'>Let&apos;s build something together</p>
           <h1 className='py-4 text-gray-700'>
-            Hey, I'm <span className='text-[#dd876c]'>Brishan.</span>
+            Hey, I&apos;m <span className='text-[#dd876c]'>Brishan.</span>
           </h1>
           <h1 className='py-2 text-gray-700'>A Full-Stack Web Developer</h1>
           <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-            I’m focused on building responsive front-end web applications while
+            I&apos;m focused on building responsive front-end web applications while
             learning back-end technologies.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
