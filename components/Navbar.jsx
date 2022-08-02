@@ -101,11 +101,11 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
+      <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/60 ease-in-out duration-500' : 'md:hidden z-[-1] fixed left-0 top-0 w-full h-screen bg-black/0 ease-in-out duration-500'}>
         <div className={
                 nav
                   ? 'fixed right-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
-                  : 'fixed right-[-100%] top-0 p-10 h-screen ease-in duration-500'}>
+                  : 'fixed right-[-100%] w-[75%] top-0 p-10 h-screen ease-in duration-500'}>
           <div>
             <div className='flex w-full items-center justify-between'>
               <Image src={logoImage} alt='Logo' width='87' height='35'/>
@@ -114,7 +114,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className='border-b border-gray-300 my-4'>
-              <p className='w-[85%] md:w-[90%] py-4'>Let&apos;s build something together</p>
+              <p className='w-[85%] sm:w-[90%] py-4'>Let&apos;s build something together</p>
             </div>
           </div>
           <div className='py-4 flex flex-col'>
