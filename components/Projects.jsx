@@ -10,7 +10,7 @@ import travelSiteImg from '../public/assets/projects/TravelSite.JPG';
 const Projects = () => {
   return (
     <section id='projects' className="w-full">
-      <div className="max-w-[1240px] mx-auto px-4 py-16">
+      <div className="max-w-[1240px] mx-auto px-4 py-16 mt-[10vh]">
         <p className="text-xl tracking-widest uppercase text-[#dd876c]">
           Projects
         </p>

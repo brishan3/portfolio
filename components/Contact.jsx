@@ -45,7 +45,7 @@ const Contact = () => {
 
   return (
     <section id='contact' className='w-full lg:h-screen'>
-      <div className='max-w-[1240px] m-auto px-4 py-16 w-full'>
+      <div className='max-w-[1240px] m-auto px-4 py-16 w-full mt-[10vh]'>
         <p className='text-xl tracking-widest uppercase text-[#dd876c]'>
           Contact
         </p>

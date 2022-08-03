@@ -17,7 +17,7 @@ import herokuLogo from '../public/assets/skills/heroku.png';
 const Skills = () => {
   return (
     <section id='skills' className='w-full lg:min-h-[40vh] p-4'>
-      <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
+      <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full mt-[10vh]'>
         <p className='text-xl tracking-widest uppercase text-[#dd876c]'>Skills</p>
         <h2 className='py-4'>What I can do</h2>
         <div className='grid justify-center sm:px-0 sm:grid-cols-2 lg:grid-cols-4 gap-8'>

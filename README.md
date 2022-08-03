@@ -2,9 +2,17 @@
 
 A minimalist, responsive portfolio built to showcase my work as an aspiring Junior Web Developer.
 
+Live at: [http://brishanking.me](http://brishanking.me)
+
 ## Getting Started
 
-First, to view my portfolio locally, run the development server with:
+First, to view my portfolio locally, install all dependencies:
+
+```bash
+yarn install
+```
+
+then run the development server with:
 
 ```bash
 npm run dev
