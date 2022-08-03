@@ -9,6 +9,8 @@ Live at: [http://brishanking.me](http://brishanking.me)
 First, to view my portfolio locally, install all dependencies:
 
 ```bash
+npm install
+# or
 yarn install
 ```
 
