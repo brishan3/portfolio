@@ -58,11 +58,11 @@ const Navbar = () => {
       <nav className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Link href='/'>
           <Image
-            className='cursor-pointer'
+            className='cursor-pointer h-[2rem]'
             src={logoImage}
             alt='Logo'
-            width='125'
-            height='50'
+            width='105'
+            height='40'
           />
         </Link>
         <div>
