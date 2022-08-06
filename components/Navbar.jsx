@@ -101,7 +101,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <div className={nav ? 'md:hidden transition-[background] fixed left-0 top-0 w-full h-screen bg-black/60 ease-in duration-500' : 'md:hidden z-[-1] transition-[background] fixed left-[100%] top-0 w-full h-screen bg-black/0 ease-in duration-500'}>
+      <div className={nav ? 'md:hidden transition-background fixed left-0 top-0 w-full h-screen bg-black/60 ease-in duration-500' : 'md:hidden z-[-1] transition-background fixed left-[100%] top-0 w-full h-screen bg-black/0 ease-in duration-500'}>
         <div className={
                 nav
                   ? 'fixed right-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
