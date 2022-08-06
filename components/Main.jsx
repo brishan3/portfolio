@@ -53,7 +53,7 @@ const Main = () => {
           </div>
         </div>
       </div>
-      <Wave className='relative h-[45%] bottom-[16%] z-0'  fill='url(#gradient)'
+      <Wave className='relative h-[40%] bottom-[16%] z-0'  fill='url(#gradient)'
         paused={false}
         options={{
           height: 23,
