@@ -53,19 +53,19 @@ const Main = () => {
           </div>
         </div>
       </div>
-      <Wave className='relative h-[35%] bottom-[22%] z-[2]'  fill='url(#gradient)'
+      <Wave className='relative h-[45%] bottom-[16%] z-0'  fill='url(#gradient)'
         paused={false}
         options={{
-          height: 20,
-          amplitude: 30,
-          speed: 0.15,
+          height: 23,
+          amplitude: 25,
+          speed: 0.1,
           points: 3
         }}
       >
         <defs>
           <linearGradient id="gradient" gradientTransform="rotate(90)">
-            <stop offset="10%"  stopColor="#de927a" />
-            <stop offset="90%" stopColor="#ecf0f3" />
+            <stop offset="10%"  stopColor="#dd876c" />
+            <stop offset="85%" stopColor="#ecf0f3" />
           </linearGradient>
         </defs>
       </Wave>
