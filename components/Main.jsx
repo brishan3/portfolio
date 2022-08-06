@@ -3,12 +3,14 @@ import Link from 'next/link';
 import {AiOutlineMail} from 'react-icons/ai';
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
+import Wave from 'react-wavify'
 
 
 const Main = () => {
   return (
     <section className='w-full h-screen text-center'>
-      <div className='max-w-[1240px] w-full h-full mx-auto p-4 flex justify-center items-center'>
+      
+      <div className='max-w-[1240px] w-full h-full mx-auto p-4 flex justify-center items-center relative z-10'>
         <div>
           <p className='uppercase text-sm tracking-widest text-gray-600'>Let&apos;s build something together</p>
           <h1 className='py-4 text-gray-700'>
@@ -20,7 +22,7 @@ const Main = () => {
             learning back-end technologies.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-            <div className='rounded-full shadow-gray-400 shadow-lg'>
+            <div className='rounded-full shadow-gray-400 shadow-lg relative'>
               <Link href='https://www.linkedin.com/in/brishan-king/'>
                 <div className='rounded-full bg-[#ecf0f3] p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
                   <FaLinkedinIn/>
@@ -51,6 +53,22 @@ const Main = () => {
           </div>
         </div>
       </div>
+      <Wave className='relative h-[35%] bottom-[22%] z-[2]'  fill='url(#gradient)'
+        paused={false}
+        options={{
+          height: 20,
+          amplitude: 30,
+          speed: 0.15,
+          points: 3
+        }}
+      >
+        <defs>
+          <linearGradient id="gradient" gradientTransform="rotate(90)">
+            <stop offset="10%"  stopColor="#de927a" />
+            <stop offset="90%" stopColor="#ecf0f3" />
+          </linearGradient>
+        </defs>
+      </Wave>
     </section>
   )
 }

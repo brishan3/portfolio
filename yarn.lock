@@ -1612,6 +1612,13 @@ react-is@^16.13.1:
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
+react-wavify@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/react-wavify/-/react-wavify-1.6.1.tgz#24906088bc5461d67e8b3ab41934b1f05f561e03"
+  integrity sha512-YZigv6XPazRheK9nz2YDK5q10vCKQy/SPkuGTmSUh8P1HP+3R5cxWzjO8WyxrglFKH+im4lJxbzW9+t1pi6IJQ==
+  dependencies:
+    prop-types "^15.8.1"
+
 react@18.2.0:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
@@ -1811,9 +1818,9 @@ supports-preserve-symlinks-flag@^1.0.0:
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
 sweetalert2@^11.4.19:
-  version "11.4.19"
-  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-11.4.19.tgz#b30f30035ba9479be46be5e296ce14b621896c9d"
-  integrity sha512-N3GA2M/K6PFzLprKWENioL0ckXPHLiWwvMMAJSfGgxB+aptzQrElv6D+j3D++K9yXSjpTs3XqJHYUQpEUzpv/g==
+  version "11.4.26"
+  resolved "https://registry.npmjs.org/sweetalert2/-/sweetalert2-11.4.26.tgz"
+  integrity sha512-YqH/C6IPudeWVK9R0x3pCOqP7m90Ae50tl98SQBpAwL3+UBl1WYD2+5OaKy0ybiVTKbYe76wwJ3PV+bITLjl+A==
 
 tailwindcss@^3.1.4:
   version "3.1.4"
