@@ -19,7 +19,7 @@ const instock = () => {
           <Image className='absolute z-1' layout='fill' objectFit='cover' src={heroImg} alt='InStock website screenshot'/>
           <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-4'>
             <h2 className='py-2'>InStock</h2>
-            <h3>React / Sass / Express</h3>
+            <h3>React / JavaScript / Sass / Express / Node</h3>
           </div>
         </div>
 
@@ -28,7 +28,7 @@ const instock = () => {
             <p>Project</p>
             <h2 className='pb-2'>Overview</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fermentum vestibulum tortor et congue. Pellentesque sagittis orci at velit ultrices, vitae maximus massa feugiat. Morbi nec arcu eu risus fermentum suscipit. Integer eleifend id sem vel vestibulum. Maecenas sodales lacinia sem, non tincidunt enim volutpat in. Donec eget commodo ex. Aliquam erat volutpat. Nunc fermentum consequat dolor sed auctor. Morbi vel quam sodales, fermentum orci id, iaculis arcu. Nunc a facilisis mauris, eu blandit nulla. Aenean egestas interdum leo, commodo sodales sapien egestas a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan lacinia aliquam.
+              <span className='font-bold'>InStock</span> is a responsive inventory management application that allows users to keep track of inventories spread across multiple warehouses. Users can add, edit, delete both warehouses and inventory items. The app itself was built with React and SASS on the frontend and Node and Express on the backend.
             </p>
             <div className='flex flex-wrap justify-center md:justify-start gap-4'>
             <a
@@ -54,8 +54,10 @@ const instock = () => {
               <p className='text-center font-bold pb-2'>Technologies:</p>
               <ul className='grid grid-cols-3 md:grid-cols-1'>
                 <li className='text-gray-600 flex items-center justify-center md:justify-start py-2'><RiRadioButtonFill className='pr-1 flex-shrink-0'/>React</li>
+                <li className='text-gray-600 flex items-center justify-center md:justify-start py-2'><RiRadioButtonFill className='pr-1 flex-shrink-0'/>JavaScript</li>
                 <li className='text-gray-600 flex items-center justify-center md:justify-start py-2'><RiRadioButtonFill className='pr-1 flex-shrink-0'/>Sass</li>
                 <li className='text-gray-600 flex items-center justify-center md:justify-start py-2'><RiRadioButtonFill className='pr-1 flex-shrink-0'/>Express</li>
+                <li className='text-gray-600 flex items-center justify-center md:justify-start py-2'><RiRadioButtonFill className='pr-1 flex-shrink-0'/>Node</li>
               </ul>
             </div>
           </div>

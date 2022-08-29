@@ -26,7 +26,7 @@ const Projects = () => {
             title="InStock"
             background={inStockImg}
             projectUrl="/instock"
-            techStack="React, JavaScript, Express, Sass"
+            techStack="React, JavaScript, Express, Node, Sass"
           />
           <ProjectItem
             title="BrainFlix"
