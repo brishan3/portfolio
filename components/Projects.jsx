@@ -20,37 +20,37 @@ const Projects = () => {
             title="Ohmpage"
             background={ohmpageImg}
             projectUrl="/ohmpage"
-            techStack="React, JavaScript, Express, MUI, Sass"
+            techStack="React | JavaScript | Express | Node | MUI | Sass | MySQL | Knex"
           />
           <ProjectItem
             title="InStock"
             background={inStockImg}
             projectUrl="/instock"
-            techStack="React, JavaScript, Express, Node, Sass"
+            techStack="React | JavaScript | Express | Node | Sass"
           />
           <ProjectItem
             title="BrainFlix"
             background={brainFlixImg}
             projectUrl="/brainflix"
-            techStack="React, JavaScript, Express, Sass"
+            techStack="React | JavaScript | Express | Sass"
           />
           <ProjectItem
             title="Bandsite"
             background={bandsiteImg}
             projectUrl="/bandsite"
-            techStack="HTML, JavaScript, Sass"
+            techStack="HTML | JavaScript | Sass"
           />
           <ProjectItem
             title="Coffee Shop"
             background={coffeeShopImg}
             projectUrl="/coffeeshop"
-            techStack="HTML, Sass, VS-Code"
+            techStack="HTML | Sass | VS-Code"
           />
           <ProjectItem
             title="Travel Site"
             background={travelSiteImg}
             projectUrl="/travelsite"
-            techStack="HTML, CSS, VS-Code"
+            techStack="HTML | CSS | VS-Code"
           />
         </div>
       </div>

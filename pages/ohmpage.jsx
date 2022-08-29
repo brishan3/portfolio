@@ -25,7 +25,7 @@ const ohmpage = () => {
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-4">
             <h2 className="py-2">Ohmpage</h2>
-            <h3>React / MUI / Sass / MySQL</h3>
+            <h3>React / JavaScript / Express / Node / MUI / Sass / MySQL / Knex</h3>
           </div>
         </div>
 
@@ -90,15 +90,23 @@ const ohmpage = () => {
                 </li>
                 <li className="text-gray-600 flex items-center justify-center md:justify-start py-2">
                   <RiRadioButtonFill className="pr-1 flex-shrink-0" />
+                  JavaScript
+                </li>
+                <li className="text-gray-600 flex items-center justify-center md:justify-start py-2">
+                  <RiRadioButtonFill className="pr-1 flex-shrink-0" />
+                  Express
+                </li>
+                <li className="text-gray-600 flex items-center justify-center md:justify-start py-2">
+                  <RiRadioButtonFill className="pr-1 flex-shrink-0" />
+                  Node
+                </li>
+                <li className="text-gray-600 flex items-center justify-center md:justify-start py-2">
+                  <RiRadioButtonFill className="pr-1 flex-shrink-0" />
                   MUI
                 </li>
                 <li className="text-gray-600 flex items-center justify-center md:justify-start py-2">
                   <RiRadioButtonFill className="pr-1 flex-shrink-0" />
                   Sass
-                </li>
-                <li className="text-gray-600 flex items-center justify-center md:justify-start py-2">
-                  <RiRadioButtonFill className="pr-1 flex-shrink-0" />
-                  Express
                 </li>
                 <li className="text-gray-600 flex items-center justify-center md:justify-start py-2">
                   <RiRadioButtonFill className="pr-1 flex-shrink-0" />
