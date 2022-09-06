@@ -28,7 +28,10 @@ const travelsite = () => {
             <p>Project</p>
             <h2 className='pb-2'>Overview</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fermentum vestibulum tortor et congue. Pellentesque sagittis orci at velit ultrices, vitae maximus massa feugiat. Morbi nec arcu eu risus fermentum suscipit. Integer eleifend id sem vel vestibulum. Maecenas sodales lacinia sem, non tincidunt enim volutpat in. Donec eget commodo ex. Aliquam erat volutpat. Nunc fermentum consequat dolor sed auctor. Morbi vel quam sodales, fermentum orci id, iaculis arcu. Nunc a facilisis mauris, eu blandit nulla. Aenean egestas interdum leo, commodo sodales sapien egestas a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan lacinia aliquam.
+              <span className='font-bold'>Travelsite</span> is a static, multi-page, fiction travel agency website built using HTML/CSS displaying various destinations to travel. 
+            </p>
+            <p className='mt-2'>
+              * The code for this project is not available to view as it is the intellectual property of BrainStation.
             </p>
             {/* <div className='flex flex-wrap justify-center md:justify-start gap-4'>
               <button className='px-8 py-2 mt-4'>Demo</button>

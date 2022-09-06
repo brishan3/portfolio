@@ -41,16 +41,16 @@ const Projects = () => {
             techStack="HTML | JavaScript | Sass"
           />
           <ProjectItem
-            title="Coffee Shop"
-            background={coffeeShopImg}
-            projectUrl="/coffeeshop"
-            techStack="HTML | Sass | VS-Code"
-          />
-          <ProjectItem
             title="Travel Site"
             background={travelSiteImg}
             projectUrl="/travelsite"
             techStack="HTML | CSS | VS-Code"
+          />
+          <ProjectItem
+            title="Coffee Shop"
+            background={coffeeShopImg}
+            projectUrl="/coffeeshop"
+            techStack="HTML | Sass | VS-Code"
           />
         </div>
       </div>

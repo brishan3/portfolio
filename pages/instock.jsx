@@ -28,7 +28,7 @@ const instock = () => {
             <p>Project</p>
             <h2 className='pb-2'>Overview</h2>
             <p>
-              <span className='font-bold'>InStock</span> is a responsive inventory management application that allows users to keep track of inventories spread across multiple warehouses. Users can add, edit, delete both warehouses and inventory items. The app itself was built with React and SASS on the frontend and Node and Express on the backend.
+              <span className='font-bold'>InStock</span> is a fully responsive inventory management application that allows users to keep track of inventories spread across multiple warehouses. Users can add, edit, delete both warehouses and inventory items. The app itself was built with React and SASS on the frontend and Node and Express on the backend.
             </p>
             <div className='flex flex-wrap justify-center md:justify-start gap-4'>
             <a
