@@ -28,7 +28,7 @@ const coffeeshop = () => {
             <p>Project</p>
             <h2 className='pb-2'>Overview</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fermentum vestibulum tortor et congue. Pellentesque sagittis orci at velit ultrices, vitae maximus massa feugiat. Morbi nec arcu eu risus fermentum suscipit. Integer eleifend id sem vel vestibulum. Maecenas sodales lacinia sem, non tincidunt enim volutpat in. Donec eget commodo ex. Aliquam erat volutpat. Nunc fermentum consequat dolor sed auctor. Morbi vel quam sodales, fermentum orci id, iaculis arcu. Nunc a facilisis mauris, eu blandit nulla. Aenean egestas interdum leo, commodo sodales sapien egestas a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan lacinia aliquam.
+            <span className='font-bold'>Coffeeshop</span> aka. <span className='font-bold italic'>Nitro Coffee</span> is a static, multi-page coffee shop website built using HTML and CSS, displaying various menu items, promotions and contact information for the <span className="italic">business</span>.
             </p>
             <p className='mt-2'>
               * The code for this project is not available to view as it is the intellectual property of BrainStation.

@@ -28,7 +28,7 @@ const travelsite = () => {
             <p>Project</p>
             <h2 className='pb-2'>Overview</h2>
             <p>
-              <span className='font-bold'>Travelsite</span> is a static, multi-page, fiction travel agency website built using HTML/CSS displaying various destinations to travel. 
+              <span className='font-bold'>Travel Site</span> is a static, multi-page travel agency website built using HTML and CSS; displaying various destinations to travel. 
             </p>
             <p className='mt-2'>
               * The code for this project is not available to view as it is the intellectual property of BrainStation.
