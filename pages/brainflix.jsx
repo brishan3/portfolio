@@ -18,7 +18,7 @@ const brainflix = () => {
           <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/50 z-10'/>
           <Image className='absolute z-1' layout='fill' objectFit='cover' src={heroImg} alt='BrainFlix website screenshot'/>
           <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-4'>
-            <h2 className='py-2'>Brainflix</h2>
+            <h2 className='py-2'>BrainFlix</h2>
             <h3>React / Sass / Express / Node</h3>
           </div>
         </div>
@@ -28,11 +28,10 @@ const brainflix = () => {
             <p>Project</p>
             <h2 className='pb-2'>Overview</h2>
             <p>
-              A fully responsive YouTube clone; showcasing dynamically filtered Next Videos, page routing done with react-router and the ability to upload a mock-video to a self-built Node.js backend which served as the REST API for the application.
+              <span className="font-bold">BrainFlix</span> is a fully responsive YouTube clone; showcasing dynamically filtered Next Video suggestions, page routing done with react-router and the ability to upload a mock-video to a self-built Node.js backend which served as the REST API for the application.
             </p>
             <p className='mt-2'>
-              <span className='font-bold'>BrainFlix</span> was the first React specific 
-              application built during the BrainStation Web Development Program - 2022; this also includes the first application for which we built our own API.
+              This was the first React specific application built during the BrainStation Web Development Program - 2022; this also includes the first application for which we built our own backend API.
             </p>
             <p className='mt-2'>
               * The code for this project is not available to view as it is the intellectual property of BrainStation.
