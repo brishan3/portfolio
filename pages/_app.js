@@ -5,7 +5,9 @@ function MyApp({ Component, pageProps }) {
   return (
   <>
     <Navbar/>
-    <Component {...pageProps} />
+    <div className='dark:bg-gray-800 dark:text-gray-50 text-gray-600'>
+      <Component {...pageProps} />
+    </div>
   </>
   )
 }

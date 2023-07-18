@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <section id='projects' className="w-full">
       <div className="max-w-[1240px] mx-auto px-4 py-16 mt-[10vh]">
-        <p className="text-xl tracking-widest uppercase text-[#dd876c]">
+        <p className="text-xl tracking-widest uppercase text-salmon">
           Projects
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
