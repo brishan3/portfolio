@@ -5,7 +5,7 @@ import aboutImage from '../public/assets/portfolio-crop-portrait.jpg';
 const About = () => {
   return (
     <section id='about' className='w-full mb-[10vh] md:min-h-[60vh] p-4 py-16'>
-      <div className='max-w-[1240px] m-auto lg:grid grid-cols-3 gap-8 mt-[10vh] relative z-10'>
+      <div className='max-w-[1240px] m-auto lg:grid grid-cols-3 gap-8 mt-[12vh] relative z-10'>
         <div className='col-span-2 flex flex-col justify-center mb-8 lg:mb-0'>
           <p className='uppercase text-xl tracking-widest text-salmon'>About</p>
           <h2>Who I Am</h2>

@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import logoImage from "../public/assets/logo.png";
-import logoDarkModeImage from "../public/assets/logo-dark-mode.png";
 import classNames from "../utilities/classNames";
 import { useRouter } from "next/router";
 import React, { useState, useEffect } from "react";
@@ -64,7 +63,6 @@ const Navbar = () => {
       <nav className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
           <div className="cursor-pointer">
-            <div className="dark:hidden">
               <Image
                 className="h-[2rem] "
                 src={logoImage}
@@ -72,16 +70,6 @@ const Navbar = () => {
                 width="105"
                 height="40"
               />
-            </div>
-            <div className="hidden dark:block">
-              <Image
-                className="h-[2rem]"
-                src={logoDarkModeImage}
-                alt="Logo"
-                width="105"
-                height="40"
-              />
-            </div>
           </div>
         </Link>
         <div>

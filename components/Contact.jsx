@@ -7,7 +7,7 @@ import {AiOutlineMail} from 'react-icons/ai';
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
 // import {BsFillPersonLinesFill} from 'react-icons/bs';
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi';
-import contactImg from '../public/assets/contact.jpg';
+import contactImg from '../public/assets/amp.png';
 
 
 
@@ -44,8 +44,8 @@ const Contact = () => {
   };
 
   return (
-    <section id='contact' className='w-full lg:h-full'>
-      <div className='max-w-[1240px] m-auto px-4 py-16 w-full mt-[10vh]'>
+    <section id='contact' className='w-full lg:h-full px-4'>
+      <div className='max-w-[1240px] mx-auto py-16 w-full mt-[10vh]'>
         <p className='text-xl tracking-widest uppercase text-salmon'>
           Contact
         </p>
