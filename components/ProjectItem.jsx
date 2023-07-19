@@ -15,7 +15,7 @@ const ProjectItem = ({title, background, projectUrl, techStack}) => {
           {title}
         </h3>
         <p className="pb-4 pt-2 text-white text-center">{techStack}</p>
-        <Link href={projectUrl}>
+        <Link href={projectUrl} className="no-underline">
           <p className="text-center py-4 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
             More Info
           </p>

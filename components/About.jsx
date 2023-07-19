@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import aboutImage from '../public/assets/portfolio-crop-portrait.jpg';
+import aboutImage from '../public/assets/sunset-lake-midjourney.png';
 
 const About = () => {
   return (
@@ -19,10 +19,10 @@ const About = () => {
           <p className='py-2 '>
             I always had a sneaking suspicion I would be drawn into the world of 1&apos;s and 0&apos;s that make our tech tick. I am passionate about solving real world problems and exercising creativity in a virtual landscape. I am always looking for new opportunities, please feel free to reach out and connect!
           </p>
-          <p className='py-2 '>Also, feel free to check out some of my latest projects!</p>
+          <p className='py-2 '>Also, if you have some free time check out some of my latest <a href="#projects">projects</a> below!</p>
         </div>
         <div className='flex justify-center items-center'>
-          <div className='w-fit h-fit shadow-xl ml-0 lg:ml-4 bg-white dark:bg-gray-700 shadow-gray-400 dark:shadow-gray-900 rounded-xl p-4 flex justify-center items-center'>
+          <div className='w-fit h-fit shadow-xl ml-0 lg:ml-4 shadow-gray-400 dark:shadow-gray-900 rounded-xl p-4 flex justify-center items-center'>
             <Image className='rounded-xl' src={aboutImage} alt='Portrait picture of myself' width='660' height='1000'/>
           </div>
         </div>

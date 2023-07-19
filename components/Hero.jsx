@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
+import Link from "./Link/Link";
 import {AiOutlineMail} from 'react-icons/ai';
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
@@ -13,37 +13,37 @@ const Hero = () => {
         <div>
           <p className='uppercase text-sm tracking-widest '>Let&apos;s build something together</p>
           <h1 className='py-4 text-gray-700 dark:text-gray-100'>
-            Hey, I&apos;m <span className='text-salmon'>Brishan.</span>
+            Hi, I&apos;m <span className='text-salmon'>Brishan!</span>
           </h1>
-          <h1 className='py-2 text-gray-700 dark:text-gray-100'>A Full-Stack Web Developer</h1>
+          <h1 className='py-2 text-gray-700 dark:text-gray-100'>A Full-Stack Web Developer.</h1>
           <p className='py-4  max-w-[70%] m-auto'>
             I&apos;m focused on building responsive front-end web applications while
-            learning back-end technologies.
+            mastering back-end technologies.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <div className='rounded-full shadow-gray-400 dark:shadow-gray-900 shadow-lg relative'>
-              <Link href='https://www.linkedin.com/in/brishan-king/' target="_blank" rel='noopener noreferrer'>
+              <Link href='https://www.linkedin.com/in/brishan-king/' className='text-inherit'>
                 <div className='rounded-full bg-white dark:bg-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
                   <FaLinkedinIn/>
                 </div>
               </Link>
             </div>
             <div className='rounded-full shadow-gray-400 dark:shadow-gray-900 shadow-lg'>
-              <Link href='https://github.com/brishan3' target="_blank" rel='noopener noreferrer'>
+              <Link href='https://github.com/brishan3' className='text-inherit'>
                 <div className='rounded-full bg-white dark:bg-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
                   <FaGithub/>
                 </div>
               </Link>
             </div>
             <div className='rounded-full shadow-gray-400 dark:shadow-gray-900 shadow-lg'>
-              <Link href='mailto:brishan.king@gmail.com' target="_blank" rel='noopener noreferrer'>
+              <Link href='mailto:brishan.king@gmail.com' className='text-inherit'>
                 <div className='rounded-full bg-white dark:bg-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
                   <AiOutlineMail/>
                 </div>
               </Link>
             </div>
             <div className='rounded-full shadow-gray-400 dark:shadow-gray-900 shadow-lg'>
-              <Link href='/#contact'>
+              <Link href='/#contact' className='text-inherit'>
                 <div className='rounded-full bg-white dark:bg-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
                   <BsFillPersonLinesFill/>
                 </div>

@@ -1,18 +1,19 @@
 import Image from "next/image";
-import Link from "next/link";
+
 import logoImage from "../public/assets/logo.png";
+import logoDarkModeImage from "../public/assets/logo-dark-mode.png";
 import classNames from "../utilities/classNames";
 import { useRouter } from "next/router";
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import Link from "./Link/Link";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [navTransparent, setNavTransparent] = useState(true);
-  // const [linkColor, setLinkColor] = useState("#1f2937");
   const router = useRouter();
 
   useEffect(() => {
@@ -27,10 +28,8 @@ const Navbar = () => {
       ].includes(router.asPath)
     ) {
       setNavTransparent(true);
-      // setLinkColor("#ecf0f3");
     } else {
       setNavTransparent(false);
-      // setLinkColor("#1f2937");
     }
   });
 
@@ -51,7 +50,6 @@ const Navbar = () => {
 
   return (
     <header
-      // style={{ background: `${navBg}` }}
       className={classNames(
         "transition-all",
         shadow
@@ -63,6 +61,8 @@ const Navbar = () => {
       <nav className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
           <div className="cursor-pointer">
+            <div className="dark:hidden">
+
               <Image
                 className="h-[2rem] "
                 src={logoImage}
@@ -70,31 +70,42 @@ const Navbar = () => {
                 width="105"
                 height="40"
               />
+            </div>
+
+            <div className="hidden dark:block">
+            <Image
+                className="h-[2rem] "
+                src={logoDarkModeImage}
+                alt="Logo"
+                width="105"
+                height="40"
+              />
+            </div>
           </div>
         </Link>
         <div>
           <ul className="hidden md:flex">
-            <Link href="/">
+            <Link href="/" className="text-inherit no-underline">
               <li className="ml-10 text-sm uppercase underline-offset-8 decoration-2 decoration-solid decoration-salmon hover:underline">
                 Home
               </li>
             </Link>
-            <Link href="/#about">
+            <Link href="/#about" className="text-inherit no-underline">
               <li className="ml-10 text-sm uppercase underline-offset-8 decoration-2 decoration-solid decoration-salmon hover:underline">
                 About
               </li>
             </Link>
-            <Link href="/#skills">
+            <Link href="/#skills" className="text-inherit no-underline">
               <li className="ml-10 text-sm uppercase underline-offset-8 decoration-2 decoration-solid decoration-salmon hover:underline">
                 Skills
               </li>
             </Link>
-            <Link href="/#projects">
+            <Link href="/#projects" className="text-inherit no-underline">
               <li className="ml-10 text-sm uppercase underline-offset-8 decoration-2 decoration-solid decoration-salmon hover:underline">
                 Projects
               </li>
             </Link>
-            <Link href="/#contact">
+            <Link href="/#contact" className="text-inherit no-underline">
               <li className="ml-10 text-sm uppercase underline-offset-8 decoration-2 decoration-solid decoration-salmon hover:underline">
                 Contact
               </li>
@@ -141,27 +152,27 @@ const Navbar = () => {
           <div className="py-4 flex flex-col">
             <nav>
               <ul className="uppercase">
-                <Link href="/">
+                <Link href="/" className="text-inherit no-underline">
                   <li onClick={handleNav} className="py-4 text-sm">
                     Home
                   </li>
                 </Link>
-                <Link href="/#about">
+                <Link href="/#about" className="text-inherit no-underline">
                   <li onClick={handleNav} className="py-4 text-sm">
                     About
                   </li>
                 </Link>
-                <Link href="/#skills">
+                <Link href="/#skills" className="text-inherit no-underline">
                   <li onClick={handleNav} className="py-4 text-sm">
                     Skills
                   </li>
                 </Link>
-                <Link href="/#projects">
+                <Link href="/#projects" className="text-inherit no-underline">
                   <li onClick={handleNav} className="py-4 text-sm">
                     Projects
                   </li>
                 </Link>
-                <Link href="/#contact">
+                <Link href="/#contact" className="text-inherit no-underline">
                   <li onClick={handleNav} className="py-4 text-sm">
                     Contact
                   </li>
@@ -175,35 +186,31 @@ const Navbar = () => {
               <div className="flex gap-6 flex-wrap items-center justify-center my-4 w-fit">
                 <Link
                   href="https://www.linkedin.com/in/brishan-king/"
-                  targer="_blank"
-                  rel="noopener noreferrer"
+                  className="text-inherit"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-900 p-3 cursor-pointer hover:scale-105 hover:shadow-gray-300 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-900 p-3 cursor-pointer hover:scale-110 ease-in-out duration-200">
                     <FaLinkedinIn />
                   </div>
                 </Link>
                 <Link
                   href="https://github.com/brishan3"
-                  targer="_blank"
-                  rel="noopener noreferrer"
+                  className="text-inherit"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-900 p-3 cursor-pointer hover:scale-105 hover:shadow-gray-300 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-900 p-3 cursor-pointer hover:scale-110 ease-in-out duration-200">
                     <FaGithub />
                   </div>
                 </Link>
                 <Link
-                  href="mailto:brishan.king@gmail.com"
-                  targer="_blank"
-                  rel="noopener noreferrer"
+                  href="mailto:brishan.king@gmail.com" className="text-inherit"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-900 p-3 cursor-pointer hover:scale-105 hover:shadow-gray-300 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-900 p-3 cursor-pointer hover:scale-110 ease-in-out duration-200">
                     <AiOutlineMail />
                   </div>
                 </Link>
-                <Link href="/#contact">
+                <Link href="/#contact" className="text-inherit">
                   <div
                     onClick={handleNav}
-                    className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-900 p-3 cursor-pointer hover:scale-105 hover:shadow-gray-300 ease-in duration-300"
+                    className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-900 p-3 cursor-pointer hover:scale-110 ease-in-out duration-200"
                   >
                     <BsFillPersonLinesFill />
                   </div>

@@ -6,7 +6,7 @@ import Swal from 'sweetalert2';
 import {AiOutlineMail} from 'react-icons/ai';
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi';
-import contactImg from '../public/assets/amp.png';
+import contactImg from '../public/assets/amp-aspect.png';
 
 
 
@@ -51,38 +51,40 @@ const Contact = () => {
         <h2 className='py-4'>Get in Touch</h2>
         <div className='grid lg:grid-cols-5 gap-8'>
           <article className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 dark:shadow-gray-900 rounded-xl p-4'>
-            <div className='lg:p-4 h-full'>
-              <div className='overflow-hidden rounded-xl w-fit'>
-                <Image className="" src={contactImg} alt='Waveform, drawn by Brishan King'/>
+            <div className='lg:p-4 h-full flex flex-col justify-between'>
+              <div className='overflow-hidden rounded-xl w-fit lg:h-full lg:flex lg:items-center'>
+                <Image className="object-fit" src={contactImg} alt='Waveform, drawn by Brishan King'/>
               </div>
               <div>
-                <h2 className='py-2'>Brishan King</h2>
-                <p>Full-Stack Developer</p>
-                <p className='py-4'>I am available for freelance or full-time positions. Contact me and let&apos;s talk.</p>
-              </div>
-              <div>
-                <p className='uppercase pt-10 text-center'>Connect With Me</p>
-                <div className='flex items-center justify-around py-4'>
-                  <div className='rounded-full shadow-gray-400 dark:shadow-gray-900 shadow-lg'>
-                    <Link href='https://www.linkedin.com/in/brishan-king/' target='_blank' rel='noopener noreferrer'>
-                      <div className='rounded-full bg-white dark:bg-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
-                        <FaLinkedinIn/>
-                      </div>
-                    </Link>
-                  </div>
-                  <div className='rounded-full shadow-gray-400 dark:shadow-gray-900 shadow-lg'>
-                    <Link href='https://github.com/brishan3' target='_blank' rel='noopener noreferrer'>
-                      <div className='rounded-full bg-white dark:bg-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
-                       <FaGithub/>
-                      </div>
-                    </Link>
-                  </div>
-                  <div className='rounded-full shadow-gray-400 dark:shadow-gray-900 shadow-lg'>
-                    <Link href='mailto:brishan.king@gmail.com' target='_blank' rel='noopener noreferrer'>
-                      <div className='rounded-full bg-white dark:bg-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
-                       <AiOutlineMail/>
-                      </div>
-                    </Link>
+                <div>
+                  <h2 className='py-2'>Brishan King</h2>
+                  <p>Full-Stack Developer</p>
+                  <p className='py-4'>I am available for freelance or full-time positions. Contact me and let&apos;s talk.</p>
+                </div>
+                <div>
+                  <p className='uppercase pt-10 text-center'>Connect With Me</p>
+                  <div className='flex items-center justify-around py-4'>
+                    <div className='rounded-full shadow-gray-400 dark:shadow-gray-900 shadow-lg'>
+                      <Link href='https://www.linkedin.com/in/brishan-king/'>
+                        <div className='rounded-full bg-white dark:bg-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
+                          <FaLinkedinIn/>
+                        </div>
+                      </Link>
+                    </div>
+                    <div className='rounded-full shadow-gray-400 dark:shadow-gray-900 shadow-lg'>
+                      <Link href='https://github.com/brishan3'>
+                        <div className='rounded-full bg-white dark:bg-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
+                        <FaGithub/>
+                        </div>
+                      </Link>
+                    </div>
+                    <div className='rounded-full shadow-gray-400 dark:shadow-gray-900 shadow-lg'>
+                      <Link href='mailto:brishan.king@gmail.com'>
+                        <div className='rounded-full bg-white dark:bg-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
+                        <AiOutlineMail/>
+                        </div>
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>

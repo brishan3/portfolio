@@ -227,6 +227,10 @@ html {
     @apply text-3xl sm:text-4xl
   }
 
+  a {
+    @apply text-salmon underline decoration-salmon;
+  }
+
   nav li {
     @apply cursor-pointer
   }
