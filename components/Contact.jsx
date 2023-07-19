@@ -5,7 +5,6 @@ import Link from 'next/link';
 import Swal from 'sweetalert2';
 import {AiOutlineMail} from 'react-icons/ai';
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
-// import {BsFillPersonLinesFill} from 'react-icons/bs';
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi';
 import contactImg from '../public/assets/amp.png';
 
@@ -54,7 +53,7 @@ const Contact = () => {
           <article className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 dark:shadow-gray-900 rounded-xl p-4'>
             <div className='lg:p-4 h-full'>
               <div className='overflow-hidden rounded-xl w-fit'>
-                <Image className="" src={contactImg} alt='Rotary phone on a wood table'/>
+                <Image className="" src={contactImg} alt='Waveform, drawn by Brishan King'/>
               </div>
               <div>
                 <h2 className='py-2'>Brishan King</h2>
