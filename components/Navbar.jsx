@@ -1,9 +1,7 @@
 import Image from "next/image";
-
 import logoImage from "../public/assets/logo.png";
 import logoDarkModeImage from "../public/assets/logo-dark-mode.png";
 import classNames from "../utilities/classNames";
-import { useRouter } from "next/router";
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
@@ -13,25 +11,6 @@ import Link from "./Link/Link";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navTransparent, setNavTransparent] = useState(true);
-  const router = useRouter();
-
-  useEffect(() => {
-    if (
-      [
-        "/ohmpage",
-        "/instock",
-        "/brainflix",
-        "/bandsite",
-        "/coffeeshop",
-        "/travelsite",
-      ].includes(router.asPath)
-    ) {
-      setNavTransparent(true);
-    } else {
-      setNavTransparent(false);
-    }
-  });
 
   const handleNav = () => {
     setNav(!nav);
@@ -54,8 +33,7 @@ const Navbar = () => {
         "transition-all",
         shadow
           ? "fixed w-full h-20 shadow-xl z-[100] px-4 md:px-6 bg-white dark:bg-gray-800 dark:text-gray-50"
-          : "fixed w-full h-20 z-[100] px-4 md:px-6 text-gray-900 dark:text-gray-50",
-        !navTransparent && "bg-white dark:bg-gray-800 dark:text-gray-50"
+          : "fixed w-full h-20 z-[100] px-4 md:px-6 text-gray-900 dark:text-gray-50"
       )}
     >
       <nav className="flex justify-between items-center w-full h-full">
@@ -83,28 +61,28 @@ const Navbar = () => {
           </div>
         </Link>
         <div>
-          <ul className="hidden md:flex">
-            <li className="ml-10 text-sm uppercase underline-offset-8 decoration-2 decoration-solid decoration-salmon hover:underline">
+          <ul className="hidden md:flex uppercase tracking-wider">
+            <li className="ml-10 underline-offset-8 decoration-2 decoration-solid decoration-salmon hover:underline">
               <Link href="/" className="text-inherit no-underline">
                 Home
               </Link>
             </li>
-            <li className="ml-10 text-sm uppercase underline-offset-8 decoration-2 decoration-solid decoration-salmon hover:underline">
+            <li className="ml-10 underline-offset-8 decoration-2 decoration-solid decoration-salmon hover:underline">
               <Link href="/#about" className="text-inherit no-underline">
                 About
               </Link>
             </li>
-            <li className="ml-10 text-sm uppercase underline-offset-8 decoration-2 decoration-solid decoration-salmon hover:underline">
+            <li className="ml-10 underline-offset-8 decoration-2 decoration-solid decoration-salmon hover:underline">
               <Link href="/#skills" className="text-inherit no-underline">
                 Skills
               </Link>
             </li>
-            <li className="ml-10 text-sm uppercase underline-offset-8 decoration-2 decoration-solid decoration-salmon hover:underline">
+            <li className="ml-10 underline-offset-8 decoration-2 decoration-solid decoration-salmon hover:underline">
               <Link href="/#projects" className="text-inherit no-underline">
                 Projects
               </Link>
             </li>
-            <li className="ml-10 text-sm uppercase underline-offset-8 decoration-2 decoration-solid decoration-salmon hover:underline">
+            <li className="ml-10 underline-offset-8 decoration-2 decoration-solid decoration-salmon hover:underline">
               <Link href="/#contact" className="text-inherit no-underline">
                 Contact
               </Link>
@@ -134,7 +112,29 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image src={logoImage} alt="Logo" width="87" height="35" />
+              <div>
+                <div className="cursor-pointer">
+                  <div className="dark:hidden">
+                    <Image
+                      className="h-[2rem] "
+                      src={logoImage}
+                      alt="Logo"
+                      width="100"
+                      height="47"
+                    />
+                  </div>
+
+                  <div className="hidden dark:block">
+                    <Image
+                      className="h-[2rem] "
+                      src={logoDarkModeImage}
+                      alt="Logo"
+                      width="100"
+                      height="47"
+                    />
+                  </div>
+                </div>
+              </div>
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-900 p-3 cursor-pointer"

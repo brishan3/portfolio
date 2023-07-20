@@ -26,8 +26,8 @@ const Skills = () => {
   return (
     <section id='skills' className='w-full lg:min-h-[40vh] p-4 md:px-6'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full mt-[5vh]'>
-        <p className='text-xl tracking-widest uppercase text-salmon'>Skills</p>
-        <h2 className='py-4'>What I can do</h2>
+        <p className='text-xl tracking-widest uppercase text-salmon mb-2'>Skills</p>
+        <h2 className='pb-4'>What I can do</h2>
         <div className='grid justify-center sm:px-0 sm:grid-cols-2 lg:grid-cols-4 gap-8'>
           <SkillCard name='HTML' imgSrc={htmlLogo}/>
           <SkillCard name='CSS' imgSrc={cssLogo}/>

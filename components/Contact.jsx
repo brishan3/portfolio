@@ -45,10 +45,10 @@ const Contact = () => {
   return (
     <section id='contact' className='w-full lg:h-full px-4 md:px-6'>
       <div className='max-w-[1240px] mx-auto py-16 w-full mt-[10vh]'>
-        <p className='text-xl tracking-widest uppercase text-salmon'>
+        <p className='text-xl tracking-widest uppercase text-salmon font-mono mb-2'>
           Contact
         </p>
-        <h2 className='py-4'>Get in Touch</h2>
+        <h2 className='pb-4'>Get in Touch</h2>
         <div className='grid lg:grid-cols-5 gap-8'>
           <article className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 dark:shadow-gray-900 rounded-xl p-4'>
             <div className='lg:p-4 h-full flex flex-col justify-between'>
@@ -57,29 +57,29 @@ const Contact = () => {
               </div>
               <div>
                 <div>
-                  <h2 className='py-2'>Brishan King</h2>
-                  <p>Full-Stack Developer</p>
-                  <p className='py-4'>I am available for freelance or full-time positions. Contact me and let&apos;s talk.</p>
+                  <h2>Brishan King</h2>
+                  <p className='font-mono'>Full-Stack Developer</p>
+                  <p>I am available for freelance or full-time positions. Contact me and let&apos;s talk.</p>
                 </div>
                 <div>
                   <p className='uppercase pt-10 text-center'>Connect With Me</p>
                   <div className='flex items-center justify-around py-4'>
                     <div className='rounded-full shadow-gray-400 dark:shadow-gray-900 shadow-lg'>
-                      <Link href='https://www.linkedin.com/in/brishan-king/'>
+                      <Link href='https://www.linkedin.com/in/brishan-king/' className='text-inherit'>
                         <div className='rounded-full bg-white dark:bg-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
                           <FaLinkedinIn/>
                         </div>
                       </Link>
                     </div>
                     <div className='rounded-full shadow-gray-400 dark:shadow-gray-900 shadow-lg'>
-                      <Link href='https://github.com/brishan3'>
+                      <Link href='https://github.com/brishan3' className='text-inherit'>
                         <div className='rounded-full bg-white dark:bg-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
                         <FaGithub/>
                         </div>
                       </Link>
                     </div>
                     <div className='rounded-full shadow-gray-400 dark:shadow-gray-900 shadow-lg'>
-                      <Link href='mailto:brishan.king@gmail.com'>
+                      <Link href='mailto:brishan.king@gmail.com' className='text-inherit'>
                         <div className='rounded-full bg-white dark:bg-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
                         <AiOutlineMail/>
                         </div>
