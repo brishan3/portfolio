@@ -29,9 +29,9 @@ export default function Project({ projectData }) {
                   src={featuredImage.url}
                   alt="Coffee Shop website screenshot"
                 />
-              <div className="absolute top-[50%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-4 md:px-6 group-hover:translate-y-[100%] group-hover:mix-blend-luminosity group-hover:text-gray-600 transition-[transform,color,mix-blend-mode] duration-300">
-                <h1 className="py-2 text-6xl sm:text-7xl md:text-8xl font-bold tracking-wider -ml-1">{title}</h1>
-                <h3 className="font-mono">
+              <div className="absolute top-[60%] sm:top-[70%] md:top-[78%] lg:top-[82%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-4 md:px-6 group-hover:mix-blend-luminosity group-hover:text-gray-600 transition-[transform,color,mix-blend-mode] duration-300">
+                <h1 className="pt-2 text-6xl sm:text-7xl md:text-8xl font-bold tracking-wider -ml-1">{title}</h1>
+                <h3 className="font-mono pr-2">
                   {techStack.map((tech, i) => (
                     <span key={i}>
                       {tech} {i < techStack.length - 1 && <span>/ </span>}
@@ -51,11 +51,11 @@ export default function Project({ projectData }) {
                 <p key={i}>{paragraph}</p>
               ))}
               {links.length > 0 && (
-                <div className="flex flex-wrap justify-center md:justify-start gap-4">
+                <div className="flex flex-wrap justify-center md:justify-start gap-x-4">
                   {links.map((link, i) => (
                     <Link
                       key={i}
-                      className="button px-8 pt-2 pb-[0.55rem] mt-4"
+                      className="button px-8 pt-2 pb-[0.55rem] mt-4 min-w-[8rem] text-center w-full sm:max-w-[48%] md:max-w-[10rem]"
                       href={link.url}
                     >
                       {link.title}
