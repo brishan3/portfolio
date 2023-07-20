@@ -5,12 +5,12 @@ import aboutImage from "../public/assets/sunset-lake-midjourney-optimized.webp";
 const About = () => {
   return (
     <section
-      id="about"
-      className="w-full mb-[10vh] md:min-h-[60vh] p-4 md:px-6 py-16"
+      id="about-me"
+      className="w-full mb-16 md:min-h-[60vh] p-4 md:px-6 py-16"
     >
       <div className="max-w-[1240px] m-auto lg:grid grid-cols-3 gap-8 mt-[12vh] relative z-10">
         <div className="col-span-2 flex flex-col justify-center mb-8 lg:mb-0">
-          <p className="uppercase text-xl tracking-widest text-salmon font-mono mb-2">
+          <p id="about" className="uppercase text-xl tracking-widest text-salmon font-mono mb-2">
             About
           </p>
           <h2>Who I Am</h2>

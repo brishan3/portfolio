@@ -3,9 +3,9 @@ import ProjectItem from './ProjectItem';
 
 const Projects = ({ projects }) => {
   return (
-    <section id='projects' className="w-full px-4 md:px-6">
+    <section id='project-showcase' className="w-full px-4 md:px-6">
       <div className="max-w-[1240px] mx-auto py-16 mt-[10vh]">
-        <p className="text-xl tracking-widest uppercase text-salmon mb-2 font-mono">
+        <p id='projects' className="text-xl tracking-widest uppercase text-salmon mb-2 font-mono">
           Projects
         </p>
         <h2 className="pb-4">What I&apos;ve Built</h2>

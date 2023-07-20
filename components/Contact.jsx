@@ -49,9 +49,9 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="w-full lg:h-full px-4 md:px-6">
+    <section id="contact-me" className="w-full lg:h-full px-4 md:px-6">
       <div className="max-w-[1240px] mx-auto py-16 w-full mt-[10vh]">
-        <p className="text-xl tracking-widest uppercase text-salmon font-mono mb-2">
+        <p id="contact" className="text-xl tracking-widest uppercase text-salmon font-mono mb-2">
           Contact
         </p>
         <h2 className="pb-4">Get in Touch</h2>

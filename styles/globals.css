@@ -202,11 +202,17 @@
   font-display: swap;
 }
 
-html {
-  scroll-behavior: smooth;
+.scroll-padding {
+  scroll-padding-top: 8rem; /* Approx height of sticky header + breathing room: fixes Header overlapping content when linked to an anchor id on page */
 }
 
+
 @layer base {
+
+  html {
+    @apply scroll-padding scroll-smooth;
+  }
+
   body {
     @apply bg-white text-[#1f2937] tracking-wide
   }

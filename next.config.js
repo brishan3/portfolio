@@ -3,7 +3,6 @@ const nextConfig = {
   reactStrictMode: true,
   experimental: {
     newNextLinkBehavior: true,
-    scrollRestoration: true,
   },
   env: {
     EMAILJS_PUBLIC_KEY: 'OI_uKRDl4DiNtsVnx'

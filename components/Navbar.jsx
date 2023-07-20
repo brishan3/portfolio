@@ -106,11 +106,11 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed right-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white dark:bg-gray-800 p-10 ease-in duration-500"
-              : "fixed right-[-100%] w-[75%] top-0 p-10 h-screen ease-in duration-500"
+              ? "fixed right-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] min-h-screen bg-white dark:bg-gray-800 p-10 ease-in duration-500"
+              : "fixed right-[-100%] w-[75%] top-0 p-10 min-h-screen ease-in duration-500"
           }
         >
-          <div>
+          <div className="">
             <div className="flex w-full items-center justify-between">
               <div>
                 <div className="cursor-pointer">
@@ -143,35 +143,35 @@ const Navbar = () => {
               </div>
             </div>
             <div className="border-b border-gray-300 my-4">
-              <p className="w-[85%] sm:w-[90%] py-4">
+              <p className="py-4">
                 Let&apos;s build something together
               </p>
             </div>
           </div>
           <div className="py-4 flex flex-col">
             <nav>
-              <ul className="uppercase">
-                <li onClick={handleNav} className="py-4 text-sm">
+              <ul className="uppercase flex flex-col gap-4">
+                <li onClick={handleNav} className="">
                   <Link href="/" className="text-inherit no-underline">
                     Home
                   </Link>
                 </li>
-                <li onClick={handleNav} className="py-4 text-sm">
+                <li onClick={handleNav} className="">
                   <Link href="/#about" className="text-inherit no-underline">
                     About
                   </Link>
                 </li>
-                <li onClick={handleNav} className="py-4 text-sm">
+                <li onClick={handleNav} className="">
                   <Link href="/#skills" className="text-inherit no-underline">
                     Skills
                   </Link>
                 </li>
-                <li onClick={handleNav} className="py-4 text-sm">
+                <li onClick={handleNav} className="">
                   <Link href="/#projects" className="text-inherit no-underline">
                     Projects
                   </Link>
                 </li>
-                <li onClick={handleNav} className="py-4 text-sm">
+                <li onClick={handleNav} className="">
                   <Link href="/#contact" className="text-inherit no-underline">
                     Contact
                   </Link>
