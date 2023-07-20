@@ -1,8 +1,8 @@
 ## Portfolio - Built with Next.js and TailwindCSS
 
-A minimalist, responsive portfolio built to showcase my work as an aspiring Junior Web Developer.
+A minimalist, responsive portfolio built to showcase my work as an Full Stack Web Developer.
 
-Live at: [http://brishanking.me](http://brishanking.me)
+Live at: [https://brishanking.me](https://brishanking.me)
 
 ## Getting Started
 
