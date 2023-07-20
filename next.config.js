@@ -11,7 +11,11 @@ const nextConfig = {
   images: {
     deviceSizes: [475, 640, 768, 985, 1024, 1280, 1320, 1536],
     minimumCacheTTL: 86400,
-  }
+  },
+  i18n: {
+    locales: ["en"],
+    defaultLocale: "en",
+  },
 }
 
 module.exports = nextConfig
