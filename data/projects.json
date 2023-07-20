@@ -27,7 +27,7 @@
       "Knex"
     ],
     "featuredImage": {
-      "url": "/assets/projects/ohmpage.jpg",
+      "url": "/assets/projects/ohmpage.webp",
       "title": "Ohmpage",
       "alt": "Ohmpage Website Screenshot",
       "width": "",
@@ -62,7 +62,7 @@
       "Node"
     ],
     "featuredImage": {
-      "url": "/assets/projects/instock.jpg",
+      "url": "/assets/projects/instock.webp",
       "title": "InStock",
       "alt": "InStock Website Screenshot",
       "width": "",
@@ -89,7 +89,7 @@
       "Node"
     ],
     "featuredImage": {
-      "url": "/assets/projects/brainflix.jpg",
+      "url": "/assets/projects/brainflix.webp",
       "title": "BrainFlix",
       "alt": "BrainFlix Website Screenshot",
       "width": "",
@@ -114,7 +114,7 @@
       "Sass"
     ],
     "featuredImage": {
-      "url": "/assets/projects/bandsite.jpg",
+      "url": "/assets/projects/bandsite.webp",
       "title": "Bandsite",
       "alt": "Bandsite Website Screenshot",
       "width": "",
@@ -138,7 +138,7 @@
       "CSS"
     ],
     "featuredImage": {
-      "url": "/assets/projects/travelSite.jpg",
+      "url": "/assets/projects/travelSite.webp",
       "title": "Travel Site",
       "alt": "Travel Site Website Screenshot",
       "width": "",
@@ -162,7 +162,7 @@
       "Sass"
     ],
     "featuredImage": {
-      "url": "/assets/projects/coffeeshop.jpg",
+      "url": "/assets/projects/coffeeshop.webp",
       "title": "Coffee Shop",
       "alt": "Coffee Shop Website Screenshot",
       "width": "",

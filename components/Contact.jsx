@@ -6,7 +6,7 @@ import Swal from 'sweetalert2';
 import {AiOutlineMail} from 'react-icons/ai';
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi';
-import contactImg from '../public/assets/amp-aspect.png';
+import contactImg from '../public/assets/amp.webp';
 
 
 

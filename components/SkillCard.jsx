@@ -10,8 +10,8 @@ const SkillCard = ({name, imgSrc}) => {
             <Image
               src={imgSrc}
               alt="HTML"
-              width="64px"
-              height="64px"
+              width="60px"
+              height="60px"
             />
           </div>
           <div className="flex flex-col items-center">

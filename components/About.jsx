@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import aboutImage from '../public/assets/sunset-lake-midjourney.png';
+import aboutImage from '../public/assets/sunset-lake-midjourney-optimized.webp';
 
 const About = () => {
   return (

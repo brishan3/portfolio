@@ -10,6 +10,7 @@ const ProjectItem = ({title, featuredImage, projectUrl, techStack}) => {
         src={featuredImage}
         width={640}
         height={480}
+        // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         alt="/"
       />
       <div className="opacity-0 group-hover:opacity-100 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] duration-300">
