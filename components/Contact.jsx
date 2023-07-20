@@ -43,7 +43,7 @@ const Contact = () => {
   };
 
   return (
-    <section id='contact' className='w-full lg:h-full px-4'>
+    <section id='contact' className='w-full lg:h-full px-4 md:px-6'>
       <div className='max-w-[1240px] mx-auto py-16 w-full mt-[10vh]'>
         <p className='text-xl tracking-widest uppercase text-salmon'>
           Contact

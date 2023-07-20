@@ -1,0 +1,176 @@
+[
+  {
+    "title": "Ohmpage",
+    "slug": "ohmpage",
+    "bodyParagraphs": [
+      "Inspired by www.weboas.is (which went offline in Feb 2022); a minimal, yet functional customizable homepage riddled with interesting links to web tools, forums, developer resources, etc. Having used weboas.is religiously on every browser and computer I've owned over the past 5 years as the default homepage, I found many cool, interesting and helpful websites via this hub! Now, I have filled that rather large void with Ohmpage. Sorted into categorical icons below the search bar, links are served in a dropdown list with pop-out labels offering brief descriptions. As well as being a link-hub, Ohmpage offers the user the choice to change their background, theme (light/dark) and search-engine, with preferences saved locally in browser storage.",
+      "Stop by, check out the Link Library!"
+    ],
+    "links": [
+      {
+        "title": "Client",
+        "url": "https://github.com/brishan3/ohmpage-client"
+      },
+      {
+        "title": "API",
+        "url": "https://github.com/brishan3/ohmpage-api"
+      }
+    ],
+    "techStack": [
+      "React",
+      "JavaScript",
+      "Express",
+      "Node",
+      "MUI",
+      "Sass",
+      "MySQL",
+      "Knex"
+    ],
+    "featuredImage": {
+      "url": "/assets/projects/ohmpage.jpg",
+      "title": "Ohmpage",
+      "alt": "Ohmpage Website Screenshot",
+      "width": "",
+      "height": ""
+    },
+    "meta": {
+      "title": "Ohmpage",
+      "description": "A responsive, full-stack web application for use as a customizable home page and link hub"
+    }
+  },
+  {
+    "title": "InStock",
+    "slug": "instock",
+    "bodyParagraphs": [
+      "InStock is a fully responsive inventory management application that allows users to keep track of inventories spread across multiple warehouses. Users can add, edit, delete both warehouses and inventory items. The app itself was built with React and SASS on the frontend and Node and Express on the backend."
+    ],
+    "links": [
+      {
+        "title": "Client",
+        "url": "https://github.com/brishan3/instock"
+      },
+      {
+        "title": "API",
+        "url": "https://github.com/brishan3/instock-api"
+      }
+    ],
+    "techStack": [
+      "React",
+      "JavaScript",
+      "Sass",
+      "Express",
+      "Node"
+    ],
+    "featuredImage": {
+      "url": "/assets/projects/instock.jpg",
+      "title": "InStock",
+      "alt": "InStock Website Screenshot",
+      "width": "",
+      "height": ""
+    },
+    "meta": {
+      "title": "InStock",
+      "description": "A modern, full-stack inventory tracking application built using React and Express"
+    }
+  },
+  {
+    "title": "BrainFlix",
+    "slug": "brainflix",
+    "bodyParagraphs": [
+      "BrainFlix is a fully responsive YouTube clone; showcasing dynamically filtered Next Video suggestions, page routing done with react-router and the ability to upload a mock-video to a self-built Node.js backend which served as the REST API for the application.",
+      "This was the first React specific application built during the BrainStation Web Development Program - 2022; this also includes the first application for which we built our own backend API.",
+      "* The code for this project is not available to view as it is the intellectual property of BrainStation."
+    ],
+    "links": [],
+    "techStack": [
+      "React",
+      "Sass",
+      "Express",
+      "Node"
+    ],
+    "featuredImage": {
+      "url": "/assets/projects/brainflix.jpg",
+      "title": "BrainFlix",
+      "alt": "BrainFlix Website Screenshot",
+      "width": "",
+      "height": ""
+    },
+    "meta": {
+      "title": "BrainFlix",
+      "description": "A responsive, full-stack web application resembling YouTube built using React and Express"
+    }
+  },
+  {
+    "title": "Bandsite",
+    "slug": "bandsite",
+    "bodyParagraphs": [
+      "Bandsite is a fully responsive front-end application for a fictional band by the name of 'The Bees Knees'. This project was built using HTML and vanilla JavaScript, along with Sass for all styling and visual responsiveness. Complete with dynamic data being pulled from an Express API hosted on Heroku with the added ability to be able to post a comment. As this is just for demonstration, comments posted to the Heroku API will be wiped/refreshed every 24 hours.",
+      "* The code for this project is not available to view as it is the intellectual property of BrainStation."
+    ],
+    "links": [],
+    "techStack": [
+      "HTML",
+      "JavaScript",
+      "Sass"
+    ],
+    "featuredImage": {
+      "url": "/assets/projects/bandsite.jpg",
+      "title": "Bandsite",
+      "alt": "Bandsite Website Screenshot",
+      "width": "",
+      "height": ""
+    },
+    "meta": {
+      "title": "Bandsite",
+      "description": "A promotional website for a fictional band"
+    }
+  },
+  {
+    "title": "Travel Site",
+    "slug": "travelsite",
+    "bodyParagraphs": [
+      "Travel Site is a static, multi-page travel agency website built using HTML and CSS; displaying various destinations to travel.",
+      "* The code for this project is not available to view as it is the intellectual property of BrainStation."
+    ],
+    "links": [],
+    "techStack": [
+      "HTML",
+      "CSS"
+    ],
+    "featuredImage": {
+      "url": "/assets/projects/travelSite.jpg",
+      "title": "Travel Site",
+      "alt": "Travel Site Website Screenshot",
+      "width": "",
+      "height": ""
+    },
+    "meta": {
+      "title": "Travel Site",
+      "description": "A promotional website for a fictional travel agency, built using HTML and CSS"
+    }
+  },
+  {
+    "title": "Coffee Shop",
+    "slug": "coffeeshop",
+    "bodyParagraphs": [
+      "Coffeeshop aka. Nitro Coffee is a static, multi-page coffee shop website built using HTML and CSS, displaying various menu items, promotions and contact information for the business.",
+      "* The code for this project is not available to view as it is the intellectual property of BrainStation."
+    ],
+    "links": [],
+    "techStack": [
+      "HTML",
+      "Sass"
+    ],
+    "featuredImage": {
+      "url": "/assets/projects/coffeeshop.jpg",
+      "title": "Coffee Shop",
+      "alt": "Coffee Shop Website Screenshot",
+      "width": "",
+      "height": ""
+    },
+    "meta": {
+      "title": "Coffee Shop",
+      "description": "A simple coffee shop website built using HTML and SASS"
+    }
+  }
+]

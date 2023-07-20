@@ -9,7 +9,7 @@ import Wave from 'react-wavify'
 const Hero = () => {
   return (
     <section id="hero" className='w-full h-screen text-center'>
-      <div className='max-w-[1240px] w-full h-full mx-auto p-4 flex justify-center items-center relative z-10'>
+      <div className='max-w-[1240px] w-full h-full mx-auto p-4 md:px-6 flex justify-center items-center relative z-10'>
         <div>
           <p className='uppercase text-sm tracking-widest '>Let&apos;s build something together</p>
           <h1 className='py-4 text-gray-700 dark:text-gray-100'>

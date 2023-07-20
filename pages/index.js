@@ -6,7 +6,7 @@ import Projects from '../components/Projects';
 import Skills from '../components/Skills';
 
 
-export default function Home() {
+export default function Home({projects}) {
   return (
     <>
       <Head>
@@ -22,10 +22,29 @@ export default function Home() {
 
         <Skills/>
 
-        <Projects/>
+        <Projects projects={projects}/>
 
         <Contact/>
       </main>
     </>
   )
+}
+
+export async function getStaticProps() {
+  const projectsRaw = require("../data/projects.json");
+
+  const projects = projectsRaw.map(({title, featuredImage, techStack, slug}) => ({
+    title,
+    featuredImage,
+    techStack,
+    slug
+  }))
+
+  console.log(projects)
+
+  return {
+    props: {
+      projects,
+    },
+  };
 }

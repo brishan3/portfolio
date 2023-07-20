@@ -53,63 +53,62 @@ const Navbar = () => {
       className={classNames(
         "transition-all",
         shadow
-          ? "fixed w-full h-20 shadow-xl z-[100] px-4 bg-white dark:bg-gray-800 dark:text-gray-50"
-          : "fixed w-full h-20 z-[100] px-4 text-gray-900 dark:text-gray-50",
+          ? "fixed w-full h-20 shadow-xl z-[100] px-4 md:px-6 bg-white dark:bg-gray-800 dark:text-gray-50"
+          : "fixed w-full h-20 z-[100] px-4 md:px-6 text-gray-900 dark:text-gray-50",
         !navTransparent && "bg-white dark:bg-gray-800 dark:text-gray-50"
       )}
     >
-      <nav className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <nav className="flex justify-between items-center w-full h-full">
         <Link href="/">
           <div className="cursor-pointer">
             <div className="dark:hidden">
-
               <Image
                 className="h-[2rem] "
                 src={logoImage}
                 alt="Logo"
-                width="105"
-                height="40"
+                width="100"
+                height="47"
               />
             </div>
 
             <div className="hidden dark:block">
-            <Image
+              <Image
                 className="h-[2rem] "
                 src={logoDarkModeImage}
                 alt="Logo"
-                width="105"
-                height="40"
+                width="100"
+                height="47"
               />
             </div>
           </div>
         </Link>
         <div>
           <ul className="hidden md:flex">
-            <Link href="/" className="text-inherit no-underline">
-              <li className="ml-10 text-sm uppercase underline-offset-8 decoration-2 decoration-solid decoration-salmon hover:underline">
+            <li className="ml-10 text-sm uppercase underline-offset-8 decoration-2 decoration-solid decoration-salmon hover:underline">
+              <Link href="/" className="text-inherit no-underline">
                 Home
-              </li>
-            </Link>
-            <Link href="/#about" className="text-inherit no-underline">
-              <li className="ml-10 text-sm uppercase underline-offset-8 decoration-2 decoration-solid decoration-salmon hover:underline">
+              </Link>
+            </li>
+            <li className="ml-10 text-sm uppercase underline-offset-8 decoration-2 decoration-solid decoration-salmon hover:underline">
+              <Link href="/#about" className="text-inherit no-underline">
                 About
-              </li>
-            </Link>
-            <Link href="/#skills" className="text-inherit no-underline">
-              <li className="ml-10 text-sm uppercase underline-offset-8 decoration-2 decoration-solid decoration-salmon hover:underline">
+              </Link>
+            </li>
+            <li className="ml-10 text-sm uppercase underline-offset-8 decoration-2 decoration-solid decoration-salmon hover:underline">
+              <Link href="/#skills" className="text-inherit no-underline">
                 Skills
-              </li>
-            </Link>
-            <Link href="/#projects" className="text-inherit no-underline">
-              <li className="ml-10 text-sm uppercase underline-offset-8 decoration-2 decoration-solid decoration-salmon hover:underline">
+              </Link>
+            </li>
+            <li className="ml-10 text-sm uppercase underline-offset-8 decoration-2 decoration-solid decoration-salmon hover:underline">
+              <Link href="/#projects" className="text-inherit no-underline">
                 Projects
-              </li>
-            </Link>
-            <Link href="/#contact" className="text-inherit no-underline">
-              <li className="ml-10 text-sm uppercase underline-offset-8 decoration-2 decoration-solid decoration-salmon hover:underline">
+              </Link>
+            </li>
+            <li className="ml-10 text-sm uppercase underline-offset-8 decoration-2 decoration-solid decoration-salmon hover:underline">
+              <Link href="/#contact" className="text-inherit no-underline">
                 Contact
-              </li>
-            </Link>
+              </Link>
+            </li>
           </ul>
           <div
             onClick={handleNav}
@@ -152,31 +151,31 @@ const Navbar = () => {
           <div className="py-4 flex flex-col">
             <nav>
               <ul className="uppercase">
-                <Link href="/" className="text-inherit no-underline">
-                  <li onClick={handleNav} className="py-4 text-sm">
+                <li onClick={handleNav} className="py-4 text-sm">
+                  <Link href="/" className="text-inherit no-underline">
                     Home
-                  </li>
-                </Link>
-                <Link href="/#about" className="text-inherit no-underline">
-                  <li onClick={handleNav} className="py-4 text-sm">
+                  </Link>
+                </li>
+                <li onClick={handleNav} className="py-4 text-sm">
+                  <Link href="/#about" className="text-inherit no-underline">
                     About
-                  </li>
-                </Link>
-                <Link href="/#skills" className="text-inherit no-underline">
-                  <li onClick={handleNav} className="py-4 text-sm">
+                  </Link>
+                </li>
+                <li onClick={handleNav} className="py-4 text-sm">
+                  <Link href="/#skills" className="text-inherit no-underline">
                     Skills
-                  </li>
-                </Link>
-                <Link href="/#projects" className="text-inherit no-underline">
-                  <li onClick={handleNav} className="py-4 text-sm">
+                  </Link>
+                </li>
+                <li onClick={handleNav} className="py-4 text-sm">
+                  <Link href="/#projects" className="text-inherit no-underline">
                     Projects
-                  </li>
-                </Link>
-                <Link href="/#contact" className="text-inherit no-underline">
-                  <li onClick={handleNav} className="py-4 text-sm">
+                  </Link>
+                </li>
+                <li onClick={handleNav} className="py-4 text-sm">
+                  <Link href="/#contact" className="text-inherit no-underline">
                     Contact
-                  </li>
-                </Link>
+                  </Link>
+                </li>
               </ul>
             </nav>
             <div className="pt-[10vh]">
@@ -201,7 +200,8 @@ const Navbar = () => {
                   </div>
                 </Link>
                 <Link
-                  href="mailto:brishan.king@gmail.com" className="text-inherit"
+                  href="mailto:brishan.king@gmail.com"
+                  className="text-inherit"
                 >
                   <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-900 p-3 cursor-pointer hover:scale-110 ease-in-out duration-200">
                     <AiOutlineMail />

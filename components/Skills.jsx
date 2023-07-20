@@ -24,7 +24,7 @@ import payloadCMSLogo from '../public/assets/skills/payloadCMS.png';
 
 const Skills = () => {
   return (
-    <section id='skills' className='w-full lg:min-h-[40vh] p-4'>
+    <section id='skills' className='w-full lg:min-h-[40vh] p-4 md:px-6'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full mt-[5vh]'>
         <p className='text-xl tracking-widest uppercase text-salmon'>Skills</p>
         <h2 className='py-4'>What I can do</h2>
