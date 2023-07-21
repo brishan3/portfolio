@@ -151,28 +151,28 @@ const Navbar = () => {
           <div className="py-4 flex flex-col">
             <nav>
               <ul className="uppercase flex flex-col gap-4">
-                <li onClick={handleNav} className="">
-                  <Link href="/" className="text-inherit no-underline">
+                <li>
+                  <Link href="/" onClick={handleNav} className="text-inherit no-underline">
                     Home
                   </Link>
                 </li>
-                <li onClick={handleNav} className="">
-                  <Link href="/#about" className="text-inherit no-underline">
+                <li>
+                  <Link href="/#about" onClick={handleNav} className="text-inherit no-underline">
                     About
                   </Link>
                 </li>
-                <li onClick={handleNav} className="">
-                  <Link href="/#skills" className="text-inherit no-underline">
+                <li>
+                  <Link href="/#skills" onClick={handleNav} className="text-inherit no-underline">
                     Skills
                   </Link>
                 </li>
-                <li onClick={handleNav} className="">
-                  <Link href="/#projects" className="text-inherit no-underline">
+                <li>
+                  <Link href="/#projects" onClick={handleNav} className="text-inherit no-underline">
                     Projects
                   </Link>
                 </li>
-                <li onClick={handleNav} className="">
-                  <Link href="/#contact" className="text-inherit no-underline">
+                <li>
+                  <Link href="/#contact" onClick={handleNav} className="text-inherit no-underline">
                     Contact
                   </Link>
                 </li>
@@ -207,9 +207,8 @@ const Navbar = () => {
                     <AiOutlineMail />
                   </div>
                 </Link>
-                <Link href="/#contact" className="text-inherit">
+                <Link href="/#contact" onClick={handleNav} className="text-inherit">
                   <div
-                    onClick={handleNav}
                     className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-900 p-3 cursor-pointer hover:scale-110 ease-in-out duration-200"
                   >
                     <BsFillPersonLinesFill />
