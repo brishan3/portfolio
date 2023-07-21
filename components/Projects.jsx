@@ -14,7 +14,7 @@ const Projects = ({ projects }) => {
             <ProjectItem
               key={i}
               title={title}
-              featuredImage={featuredImage.url}
+              featuredImage={featuredImage}
               projectUrl={`/${slug}`}
               techStack={techStack}
             />
