@@ -16,9 +16,9 @@ export default function Project({ projectData }) {
       </Head>
       <main>
         <section className="w-full overflow-hidden min-h-screen pt-20">
-          <div className="relative">
+          <div className="relative shadow-inner bg-gradient-to-br from-gray-300 to-gray-400 dark:from-gray-700 dark:to-gray-900">
             <div className="w-screen max-w-7xl mx-auto aspect-video group">
-              <div className="absolute top-0 left-0 w-screen h-full bg-black/[50%] backdrop-blur-[4px] group-hover:backdrop-blur-0 group-hover:bg-black/[0%] transition-[backdrop-filter,background-color] duration-300 z-10" />
+              <div className="absolute top-0 left-0 w-screen h-full bg-gray-900/[50%] backdrop-blur-[4px] group-hover:backdrop-blur-0 group-hover:bg-black/[0%] transition-[backdrop-filter,background-color] duration-300 z-10" />
               <div className="w-screen max-w-7xl mx-auto aspect-video relative">
 
                 <Image
@@ -30,8 +30,8 @@ export default function Project({ projectData }) {
                   src={featuredImage.url}
                   alt={featuredImage.alt}
                 />
-              <div className="absolute top-[60%] sm:top-[70%] md:top-[78%] lg:top-[82%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-4 md:px-6 group-hover:mix-blend-luminosity group-hover:text-gray-600 transition-[transform,color,mix-blend-mode] duration-300">
-                <h1 className="pt-2 text-6xl sm:text-7xl md:text-8xl font-bold tracking-wider -ml-1">{title}</h1>
+              <div className="absolute bottom-[1rem]  max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-4 md:px-6 group-hover:opacity-0 group-hover:text-gray-600 transition-[opacity,color,mix-blend-mode] duration-300">
+                <h1 className="pt-2 text-5xl sm:text-6xl md:text-6xl font-semibold tracking-wider -ml-1 max-w-[40%]">{title}</h1>
                 <h3 className="font-mono pr-2">
                   {techStack.map((tech, i) => (
                     <span key={i}>
@@ -44,7 +44,7 @@ export default function Project({ projectData }) {
             </div>
           </div>
 
-          <div className="max-w-[1240px] mx-auto p-4 md:px-6 flex flex-col md:flex-row gap-8 pt-8">
+          <div className="max-w-[1240px] mx-auto p-4 md:px-6 flex flex-col md:flex-row md:justify-between gap-8 pt-8">
             <div className="col-span-4">
               <p className="mb-2 font-mono">Project</p>
               <h2 className="">Overview</h2>
@@ -65,12 +65,12 @@ export default function Project({ projectData }) {
                 </div>
               )}
             </div>
-            <div className=" shadow-xl shadow-gray-400 dark:shadow-gray-900 rounded-xl p-6 md:py-4 md:px-0 h-fit w-fit mx-auto md:w-min min-w-[12rem]">
+            <div className=" shadow-xl shadow-gray-400 dark:shadow-gray-900 rounded-xl p-6 md:py-4 md:px-0 h-fit w-fit mx-auto md:mx-0 md:w-min min-w-[12rem]">
               <div className="md:flex items-center flex-col">
                 <p className="font-semibold mb-2 tracking-wider text-xl pt-2">
                   Tech Stack:
                 </p>
-                <ul className="flex flex-wrap md:flex-col justify-between pl-8 md:pr-0 mx-auto w-fit gap-x-8 md:gap-x-0">
+                <ul className="flex flex-wrap md:flex-col justify-between pl-7 md:pr-0 mx-auto w-fit gap-x-8 md:gap-x-0">
                   {techStack.map((tech, i) => (
                     <li
                       key={i}

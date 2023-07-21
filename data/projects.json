@@ -1,10 +1,163 @@
 [
   {
+    "title": "Vanguard Painting",
+    "slug": "vanguard-painting",
+    "bodyParagraphs": [
+      ""
+    ],
+    "links": [
+      {
+        "title": "Website",
+        "url": "https://painter.ca/"
+      }
+    ],
+    "techStack": [
+      "NextJS",
+      "TailwindCSS",
+      "WordPress",
+      "Framer"
+    ],
+    "featuredImage": {
+      "url": "/assets/projects/painter.webp",
+      "title": "Vanguard Painting",
+      "alt": "Vanguard Painting Website Screenshot",
+      "width": "",
+      "height": ""
+    },
+    "meta": {
+      "title": "Vanguard Painting",
+      "description": "A rebuild of Vanguard Painting's painter.ca with a modern front-end framework"
+    }
+  },
+  {
+    "title": "Fillogic",
+    "slug": "fillogic",
+    "bodyParagraphs": [
+      ""
+    ],
+    "links": [
+      {
+        "title": "Beta Website",
+        "url": "https://fillogic.vercel.app/"
+      }
+    ],
+    "techStack": [
+      "NextJS",
+      "TailwindCSS",
+      "WordPress",
+      "Framer",
+      "Algolia"
+    ],
+    "featuredImage": {
+      "url": "/assets/projects/fillogic.webp",
+      "title": "Fillogic",
+      "alt": "Fillogic Website Screenshot",
+      "width": "",
+      "height": ""
+    },
+    "meta": {
+      "title": "Fillogic",
+      "description": "A rebuild/redesign of Fillogic website, a US based logistics technology company"
+    }
+  },
+  {
+    "title": "ViDA",
+    "slug": "vida",
+    "bodyParagraphs": [
+      ""
+    ],
+    "links": [
+      {
+        "title": "Website",
+        "url": "https://www.valuesdrivenachievement.com/"
+      }
+    ],
+    "techStack": [
+      "NextJS",
+      "TailwindCSS",
+      "WordPress",
+      "Framer",
+      "Shopify"
+    ],
+    "featuredImage": {
+      "url": "/assets/projects/values-driven.webp",
+      "title": "Values Driven Achievement",
+      "alt": "ViDA (Values Driven Achievement) Website Screenshot",
+      "width": "",
+      "height": ""
+    },
+    "meta": {
+      "title": "ViDA",
+      "description": "A rebuild of Adam Kreek's previous Values Driven site"
+    }
+  },
+  {
+    "title": "Fibrebox",
+    "slug": "fibrebox",
+    "bodyParagraphs": [
+      ""
+    ],
+    "links": [
+      {
+        "title": "Website",
+        "url": "https://www.fibrebox.org/"
+      }
+    ],
+    "techStack": [
+      "NextJS",
+      "TailwindCSS",
+      "WordPress",
+      "Framer",
+      "Algolia"
+    ],
+    "featuredImage": {
+      "url": "/assets/projects/fibrebox.webp",
+      "title": "Fibrebox",
+      "alt": "Fibrebox Website Screenshot",
+      "width": "",
+      "height": ""
+    },
+    "meta": {
+      "title": "Fibrebox",
+      "description": ""
+    }
+  },
+  {
+    "title": "Lionheart Coaching",
+    "slug": "lionheart-coaching",
+    "bodyParagraphs": [
+      ""
+    ],
+    "links": [
+      {
+        "title": "Website",
+        "url": "https://lionheartcoaching.co/"
+      }
+    ],
+    "techStack": [
+      "NextJS",
+      "TailwindCSS",
+      "WordPress",
+      "Framer"
+    ],
+    "featuredImage": {
+      "url": "/assets/projects/lionheartcoaching.webp",
+      "title": "Lionheart",
+      "alt": "Lionheart Website Screenshot",
+      "width": "",
+      "height": ""
+    },
+    "meta": {
+      "title": "Lionheart",
+      "description": "A subtly animated brochure style website built for Lionheart life coaching"
+    }
+  },
+  {
     "title": "Ohmpage",
     "slug": "ohmpage",
     "bodyParagraphs": [
       "Inspired by www.weboas.is (which went offline in Feb 2022); a minimal, yet functional customizable homepage riddled with interesting links to web tools, forums, developer resources, etc. Having used weboas.is religiously on every browser and computer I've owned over the past 5 years as the default homepage, I found many cool, interesting and helpful websites via this hub! Now, I have filled that rather large void with Ohmpage. Sorted into categorical icons below the search bar, links are served in a dropdown list with pop-out labels offering brief descriptions. As well as being a link-hub, Ohmpage offers the user the choice to change their background, theme (light/dark) and search-engine, with preferences saved locally in browser storage.",
-      "Stop by, check out the Link Library!"
+      "* This project sadly went offline when Heroku took away their free tier"
     ],
     "links": [
       {

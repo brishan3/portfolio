@@ -17,7 +17,7 @@ const Hero = () => {
           </h1>
           <h1 className='mb-6 text-gray-700 dark:text-gray-100'>A Full-Stack Web Developer.</h1>
           <p className='max-w-lg mx-auto'>
-            I&apos;m focused on building responsive front-end web applications while
+            I&apos;m passionate about building responsive front-end web applications while
             mastering back-end technologies.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
