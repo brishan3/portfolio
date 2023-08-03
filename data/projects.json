@@ -1,5 +1,44 @@
 [
   {
+    "title": "Waveform AI",
+    "slug": "waveform",
+    "bodyParagraphs": [
+      "Waveform AI is an OpenAI wrapper/SaaS app built with Next.js 13, TypeScript, TailwindCSS, Shadcn/ui, PrismaDB, Clerk, Stripe, OpenAI and Crisp.",
+      "The objective of this project was to further my experience in setting up modern OAuth based User Authentication (using Clerk), as well as integrating a payment portal (using Stripe) and using TypeScript for type-safe development within NextJS. This project also boasts live customer support via Crisp Chat."
+    ],
+    "links": [
+      {
+        "title": "Website",
+        "url": "https://waveform-ai.vercel.app/"
+      },
+      {
+        "title": "Code",
+        "url": "https://github.com/brishan3/waveform-ai"
+      }
+    ],
+    "techStack": [
+      "NextJS",
+      "TypeScript",
+      "TailwindCSS",
+      "Shadcn/ui",
+      "PrismaDB",
+      "Clerk",
+      "Stripe",
+      "OpenAI"
+    ],
+    "featuredImage": {
+      "url": "/assets/projects/waveform.webp",
+      "title": "Waveform AI",
+      "alt": "Waveform AI Website Screenshot",
+      "width": "",
+      "height": ""
+    },
+    "meta": {
+      "title": "Waveform",
+      "description": "An OpenAI wrapper SaaS application built with Next 13, Tailwind CSS, shadcn/ui, Clerk, Prisma and Stripe"
+    }
+  },
+  {
     "title": "Vanguard Painting",
     "slug": "vanguard-painting",
     "bodyParagraphs": [
