@@ -11,14 +11,13 @@ const Hero = () => {
     <section id="hero" className='w-full text-center -mb-[10rem]'>
       <div className='max-w-[1240px] w-full h-full min-h-[80vh] mx-auto p-4 md:px-6 flex justify-center items-center pt-36 relative z-10'>
         <div>
-          <p className='uppercase text-sm tracking-widest mb-3 font-mono'>Let&apos;s build something together</p>
+          <p className='uppercase text-sm tracking-widest mb-3 font-mono'><span className='text-salmon relative bottom-[1px]'>&#60;</span> My source code <span className='text-salmon relative bottom-[1px]'>&#47;&#62;</span></p>
           <h1 className='mb-4 text-gray-700 dark:text-gray-100'>
             Hi, I&apos;m <span className='text-salmon'>Brishan!</span>
           </h1>
-          <h1 className='mb-6 text-gray-700 dark:text-gray-100'>A Full-Stack Web Developer.</h1>
+          <h1 className='mb-6 text-gray-700 dark:text-gray-100'>A Full<span className='text-salmon'>-</span>Stack Software Engineer<span className='text-salmon'>.</span></h1>
           <p className='max-w-lg mx-auto'>
-            I&apos;m passionate about building responsive front-end web applications while
-            mastering back-end technologies.
+            I am a passionate lifetime learner, always looking for new technologies to experiment with and understand better.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <div className='rounded-full shadow-gray-400 dark:shadow-gray-900 shadow-lg relative'>

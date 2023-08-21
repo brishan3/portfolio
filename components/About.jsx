@@ -42,7 +42,7 @@ const About = () => {
             <a href="#projects">projects</a> below!
           </p>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex flex-col justify-center items-center">
           <div className="w-fit h-fit shadow-xl ml-0 lg:ml-4 shadow-gray-400 dark:shadow-gray-900 rounded-xl p-4 flex justify-center items-center">
             <Image
               className="rounded-xl"
@@ -54,6 +54,7 @@ const About = () => {
 
             />
           </div>
+          <p className='text-center mt-4 font-mono px-2'><span className='text-salmon'>*</span> Art by MidJourney <span className='text-salmon'>*</span></p>
         </div>
       </div>
     </section>

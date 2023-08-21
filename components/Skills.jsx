@@ -50,6 +50,7 @@ const Skills = () => {
           <SkillCard name='Git' imgSrc={githubLogo}/>
           <SkillCard name='Heroku' imgSrc={herokuLogo}/>
         </div>
+        <p className='text-center mt-12 font-mono'><span className='text-salmon'>*</span> Not a complete list, as I am always learning new technologies <span className='text-salmon'>*</span></p>
       </div>
     </section>
   )
