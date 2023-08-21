@@ -15,7 +15,7 @@ const Hero = () => {
           <h1 className='mb-4 text-gray-700 dark:text-gray-100'>
             Hi, I&apos;m <span className='text-salmon'>Brishan!</span>
           </h1>
-          <h1 className='mb-6 text-gray-700 dark:text-gray-100'>A Full<span className='text-salmon'>-</span>Stack Software Engineer<span className='text-salmon'>.</span></h1>
+          <h1 className='mb-6 text-gray-700 dark:text-gray-100'>A Full<span className='text-salmon'>-</span>Stack Software Developer<span className='text-salmon'>.</span></h1>
           <p className='max-w-lg mx-auto'>
             I am a passionate lifetime learner, always looking for new technologies to experiment with and understand better.
           </p>
