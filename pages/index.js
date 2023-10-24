@@ -40,7 +40,7 @@ export async function getStaticProps() {
     slug
   }))
 
-  console.log(projects)
+  // console.log(projects)
 
   return {
     props: {
