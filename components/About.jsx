@@ -16,7 +16,7 @@ const About = () => {
           <h2>Who I Am</h2>
           <p className="font-mono">// The Full Stack</p>
           <p>
-            My post-secondary educational journey began with a solid foundation in Computing Science at Simon Fraser University, followed by specialized training in a Web Development bootcamp at BrainStation. This formal education, combined with my professional experience as a Web Development Teaching Assistant at BrainStation, responsible for growing catalogue of building full-stack applications, has equipped me with a robust skill set in full-stack software development.
+            My post-secondary educational journey began with a solid foundation in Computing Science at Simon Fraser University, followed by specialized training in a Web Development bootcamp at BrainStation. This formal education, combined with my professional experience as both a Web Development Teaching Assistant and Full-Stack Developer, has equipped me with a robust skill set in full-stack software development.
           </p>
           <p>
             My goal is to leverage my technical knowledge and creative aptitude to develop web and software solutions that address real-world challenges. I am open to collaborating on new projects and engaging in opportunities that foster professional growth and innovation. I welcome you to view my latest{" "}<a href="#projects">projects</a> showcased below and encourage you to reach out for any potential collaboration or discussion.
